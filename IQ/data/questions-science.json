@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "What gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "What is the centre of an atom called?",
+    "options": ["Electron", "Shell", "Nucleus", "Proton"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "What force keeps us on the ground?",
+    "options": ["Magnetism", "Friction", "Gravity", "Electricity"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Which part of the cell contains genetic material?",
+    "options": ["Cell wall", "Nucleus", "Cytoplasm", "Membrane"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "Water boils at what temperature at sea level?",
+    "options": ["50°C", "75°C", "90°C", "100°C"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  }
+]

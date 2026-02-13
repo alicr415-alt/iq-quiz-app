@@ -1,0 +1,402 @@
+/* Summary card */
+.summary-card {
+  max-width: 480px;
+  margin: 3rem auto 0;
+  padding: 2rem 2.25rem;
+  border-radius: 1.5rem;
+  background: rgba(15, 23, 42, 0.9);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.summary-grid {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.25rem 0 0.75rem;
+}
+
+.summary-number {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.summary-grid small {
+  color: #d1d5db;
+}
+
+.summary-diff {
+  margin-top: 0.25rem;
+}
+
+.summary-actions {
+  margin-top: 1.25rem;
+}
+
+/* Quiz layout */
+.quiz-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 1.5rem;
+}
+
+.quiz-info-panel {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 1rem;
+  padding: 1.5rem 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.quiz-info-panel h2 {
+  margin-bottom: 1rem;
+}
+
+.info-metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.info-metrics div span {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.info-metrics div small {
+  color: #9ca3af;
+}
+
+.info-illustration {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Big emoji tile on the left of quiz */
+.info-icon {
+  width: 140px;
+  height: 140px;
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  line-height: 1;
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(30, 64, 175, 0.8)
+  );
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.55);
+}
+
+/* inner span that actually animates */
+.info-icon-inner {
+  display: inline-block;
+}
+
+/* Tint the tile slightly per main category */
+body.theme-gk .info-icon {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(56, 189, 248, 0.75)
+  );
+  border-color: #38bdf8;
+}
+
+body.theme-sports .info-icon {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(34, 197, 94, 0.75)
+  );
+  border-color: #22c55e;
+}
+
+body.theme-science .info-icon {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(168, 85, 247, 0.75)
+  );
+  border-color: #a855f7;
+}
+
+.quiz-main-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.score-panel p {
+  font-size: 0.9rem;
+}
+
+/* Options – base style */
+.options {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.option-btn {
+  width: 100%;
+  text-align: left;
+  border-radius: 0.75rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #4b5563;
+  background: rgba(15, 23, 42, 0.95);
+  cursor: pointer;
+  transition: background 0.1s ease, border-color 0.1s ease, transform 0.05s ease;
+  font-size: 0.98rem;
+  color: #e5e7eb;
+}
+
+/* Theme-specific option colours (category level) */
+/* Theme-specific option colours (category level) */
+body.theme-gk .option-btn {
+  border-color: #38bdf8;
+}
+
+/* Stronger hover highlight for General Knowledge */
+body.theme-gk .option-btn:hover {
+  background: rgba(8, 47, 73, 0.95);  /* deeper blue glow so it’s obvious */
+  border-color: #0ea5e9;
+}
+
+
+body.theme-sports .option-btn {
+  border-color: #22c55e;
+}
+
+body.theme-sports .option-btn:hover {
+  background: rgba(5, 46, 22, 0.95);
+  border-color: #4ade80;
+}
+
+body.theme-science .option-btn {
+  border-color: #a855f7;
+}
+
+body.theme-science .option-btn:hover {
+  background: rgba(46, 16, 101, 0.95);
+  border-color: #c4b5fd;
+}
+
+/* Subcategory-specific border accents */
+body.subtheme-gk-geography .question-card,
+body.subtheme-gk-geography .option-btn {
+  border-color: #22d3ee;
+}
+
+body.subtheme-gk-history .question-card,
+body.subtheme-gk-history .option-btn {
+  border-color: #fbbf24;
+}
+
+body.subtheme-science-physics .question-card,
+body.subtheme-science-physics .option-btn {
+  border-color: #38bdf8;
+}
+
+body.subtheme-science-biology .question-card,
+body.subtheme-science-biology .option-btn {
+  border-color: #4ade80;
+}
+
+body.subtheme-sports-football .question-card,
+body.subtheme-sports-football .option-btn {
+  border-color: #22c55e;
+}
+
+body.subtheme-sports-cricket .question-card,
+body.subtheme-sports-cricket .option-btn {
+  border-color: #facc15;
+}
+
+body.subtheme-sports-basketball .question-card,
+body.subtheme-sports-basketball .option-btn {
+  border-color: #fb923c;
+}
+
+/* Correct / incorrect states */
+.option-btn.correct {
+  background: #14532d;
+  border-color: #22c55e;
+}
+
+.option-btn.incorrect {
+  background: #7f1d1d;
+  border-color: #f97373;
+}
+
+/* Quiz navigation buttons row */
+.quiz-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+/* Results-ready banner on quiz screen */
+.results-ready-banner {
+  display: none;
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid #22c55e;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.results-ready-banner.visible {
+  display: flex;
+}
+
+.results-ready-banner p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Results screen tweaks */
+#screen-results h2 {
+  margin-bottom: 0.75rem;
+}
+
+#screen-results #results-summary {
+  margin-bottom: 0.75rem;
+}
+
+#card-name-entry {
+  margin-top: 0.75rem;
+}
+
+/* Winner banner for VS mode */
+.winner-banner {
+  display: none;
+  margin: 0.25rem 0 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.85rem;
+  background: linear-gradient(
+    135deg,
+    rgba(22, 163, 74, 0.35),
+    rgba(37, 99, 235, 0.25)
+  );
+  border: 1px solid rgba(34, 197, 94, 0.7);
+  font-weight: 500;
+  animation: winnerGlow 1.4s ease-in-out infinite;
+}
+
+.winner-banner.visible {
+  display: block;
+}
+
+.winner-banner.draw {
+  border-color: #38bdf8;
+  background: linear-gradient(
+    135deg,
+    rgba(56, 189, 248, 0.25),
+    rgba(129, 140, 248, 0.25)
+  );
+  animation: drawPulse 1.4s ease-in-out infinite;
+}
+/* ───────────────────────────────────────────── */
+/* Custom quiz info panel & animated icon       */
+/* ───────────────────────────────────────────── */
+
+#screen-custom-quiz .quiz-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.4fr);
+  gap: 1.75rem;
+}
+
+/* Left panel styling (title + icon + stats) */
+#screen-custom-quiz .quiz-info-panel {
+  background: radial-gradient(circle at top, #111827, #020617);
+  border-radius: 1.5rem;
+  padding: 1.75rem;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.75);
+}
+
+/* Little extra weight on numbers */
+#screen-custom-quiz .info-metrics span {
+  font-size: 1.4rem;
+}
+
+/* Icon tile */
+#screen-custom-quiz .info-icon {
+  width: 180px;
+  height: 180px;
+  border-radius: 1.5rem;
+  margin: 1.75rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #1d4ed8, #020617);
+  box-shadow:
+    0 22px 50px rgba(37, 99, 235, 0.55),
+    0 0 0 1px rgba(148, 163, 184, 0.2);
+}
+
+/* Animated wrench */
+#screen-custom-quiz .info-icon-inner {
+  font-size: 3.2rem;
+  animation:
+    customIconFloat 4s ease-in-out infinite,
+    customIconGlow 2.6s ease-in-out infinite alternate;
+}
+
+/* Float up & down */
+@keyframes customIconFloat {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Soft glow / pulse */
+@keyframes customIconGlow {
+  0% {
+    text-shadow:
+      0 0 0 rgba(129, 140, 248, 0.6),
+      0 0 0 rgba(59, 130, 246, 0.5);
+  }
+  100% {
+    text-shadow:
+      0 0 18px rgba(129, 140, 248, 1),
+      0 0 28px rgba(59, 130, 246, 0.9);
+  }
+}
+/* Custom quiz buttons – give Finish a purple accent */
+#screen-custom-quiz .quiz-nav .btn.secondary {
+  background: #7c3aed;
+}
+
+#screen-custom-quiz .quiz-nav .btn.secondary:not(:disabled):hover {
+  background: #8b5cf6;
+}
+
+#screen-custom-quiz .quiz-nav .btn {
+  min-width: 120px;
+}
+
+/* Results banner a bit brighter for custom quizzes */
+#screen-custom-quiz .results-ready-banner {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 64, 175, 0.9),
+    rgba(91, 33, 182, 0.95)
+  );
+  color: #e5e7eb;
+}

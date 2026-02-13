@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IQ – Quiz App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/quiz.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+
+  <!-- Use relative /api base for local + deployed environments -->
+  <script>
+    window.API_BASE_URL = "/api";
+  </script>
+</head>
+<body>
+  <!-- Background image layer controlled by theme/subtheme classes -->
+  <div class="background-overlay"></div>
+
+  <div class="app-container">
+
+    <!-- Landing / Home Screen -->
+    <section id="screen-landing" class="screen active">
+      <div class="landing-inner">
+        <h1 class="logo">IQ</h1>
+        <p class="tagline">Interactive Quiz Web App</p>
+
+        <p class="landing-text landing-short">
+          Pick a category, choose your difficulty and test your knowledge
+          in a fast, responsive quiz experience.
+        </p>
+
+        <!-- Account / Auth panel -->
+        <div class="card auth-card">
+          <h3 class="auth-title">Account</h3>
+
+          <!-- Logged OUT view -->
+          <div id="auth-logged-out">
+            <div class="auth-row">
+              <input
+                id="auth-username"
+                type="text"
+                placeholder="Username"
+                autocomplete="username"
+              />
+              <input
+                id="auth-password"
+                type="password"
+                placeholder="Password"
+                autocomplete="current-password"
+              />
+            </div>
+            <div class="auth-row auth-actions">
+              <button id="btn-login" class="btn secondary">Login</button>
+              <button id="btn-register" class="btn">Register</button>
+            </div>
+          </div>
+
+          <!-- Logged IN view -->
+          <div id="auth-logged-in" class="hidden">
+            <span id="auth-user-label" class="auth-user-label"></span>
+            <button id="btn-logout" class="btn secondary">Logout</button>
+          </div>
+
+          <p id="auth-message" class="auth-message"></p>
+        </div>
+
+        <button id="btn-landing-start" class="btn primary">
+          Get started
+        </button>
+      </div>
+    </section>
+
+    <!-- Setup Screen (category / mode / settings) -->
+    <section id="screen-setup" class="screen">
+      <h1>Choose Your Quiz</h1>
+
+      <div class="setup-greeting-row">
+        <p id="setup-greeting-text" class="setup-greeting-text">
+          Choose a quiz from below or create your own in <strong>My Quizzes</strong>.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Select Category</h2>
+        <!-- Hidden select kept for accessibility / JS sync -->
+        <select id="category-select" class="visually-hidden"></select>
+        <!-- Visible tile grid populated by JS -->
+        <div id="category-grid" class="pill-grid"></div>
+      </div>
+
+      <div class="card">
+        <h2>Select Subcategory</h2>
+        <!-- Hidden select kept for accessibility / JS sync -->
+        <select id="subcategory-select" class="visually-hidden"></select>
+        <!-- Visible tile grid populated by JS -->
+        <div id="subcategory-grid" class="pill-grid"></div>
+      </div>
+
+      <div class="card">
+        <h2>Select Mode</h2>
+        <label>
+          <input type="radio" name="mode" value="solo" checked />
+          Solo
+        </label>
+        <label>
+          <input type="radio" name="mode" value="vs" />
+          Two-player (shared device)
+        </label>
+
+        <!-- Player names (only shown for vs mode) -->
+        <div id="vs-name-fields" class="vs-name-fields">
+          <label for="player1-name-setup">Player 1 name</label>
+          <input
+            id="player1-name-setup"
+            type="text"
+            placeholder="Player 1"
+          />
+          <label for="player2-name-setup">Player 2 name</label>
+          <input
+            id="player2-name-setup"
+            type="text"
+            placeholder="Player 2"
+          />
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Settings</h2>
+        <label for="setting-length">Quiz length</label>
+        <select id="setting-length">
+          <option value="5">5 questions</option>
+          <option value="10" selected>10 questions</option>
+          <option value="15">15 questions</option>
+        </select>
+
+        <label for="setting-difficulty">Difficulty</label>
+        <select id="setting-difficulty">
+          <option value="mixed" selected>Mixed</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+
+        <p class="muted">
+          Some subcategories load questions from an online API. If the API
+          is unavailable, the app falls back to local questions.
+        </p>
+      </div>
+
+      <button id="btn-setup-continue" class="btn primary">Continue</button>
+      <!-- NEW: My Quizzes button -->
+      <button id="btn-open-my-quizzes" class="btn secondary">🛠 My Quizzes</button>
+      <button id="btn-open-leaderboard" class="btn">🏆</button>
+      <button id="btn-back-landing" class="btn">🏠</button>
+    </section>
+
+    <!-- Summary Screen -->
+    <section id="screen-summary" class="screen">
+      <div class="summary-card">
+        <h1 id="summary-title">Quiz summary</h1>
+        <p id="summary-subtitle" class="muted"></p>
+
+        <div class="summary-grid">
+          <div>
+            <span id="summary-questions" class="summary-number">10</span>
+            <small>Questions</small>
+          </div>
+          <div>
+            <span id="summary-duration" class="summary-number">10</span>
+            <small>Minutes</small>
+          </div>
+          <div>
+            <span id="summary-mode" class="summary-number">Solo</span>
+            <small>Mode</small>
+          </div>
+        </div>
+
+        <p id="summary-difficulty" class="muted summary-diff"></p>
+
+        <div class="summary-actions">
+          <button id="btn-summary-back" class="btn">Back</button>
+          <button id="btn-summary-start" class="btn primary">Start Quiz</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="screen-quiz" class="screen">
+      <div class="quiz-layout">
+        <!-- Left info panel -->
+        <aside class="quiz-info-panel">
+          <h2 id="info-quiz-title">IQ Quiz</h2>
+
+          <div class="info-metrics">
+            <div>
+              <span id="info-total-questions">0</span>
+              <small>Questions</small>
+            </div>
+            <div>
+              <span id="info-timer">00:00</span>
+              <small>Timer</small>
+            </div>
+            <div>
+              <span id="info-current-score">0</span>
+              <small>Score</small>
+            </div>
+          </div>
+
+          <div class="info-illustration">
+            <!-- Static tile; only inner emoji is animated -->
+            <div id="info-icon" class="info-icon">
+              <span class="info-icon-inner"></span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Right main quiz panel -->
+        <main class="quiz-main-panel">
+          <div class="quiz-header">
+            <div>
+              <p id="player-turn-label">Solo mode</p>
+            </div>
+            <div class="score-panel">
+              <p>
+                <span id="label-p1">Player 1</span>:
+                <span id="score-p1">0</span>
+              </p>
+              <p>
+                <span id="label-p2">Player 2</span>:
+                <span id="score-p2">0</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card question-card">
+            <p id="question-counter"></p>
+            <h3 id="question-text"></h3>
+            <div id="options-container" class="options"></div>
+          </div>
+
+          <div class="quiz-nav">
+            <button id="btn-prev" class="btn" disabled>Previous</button>
+            <button id="btn-next" class="btn secondary" disabled>Next</button>
+            <button id="btn-quit" class="btn">Quit</button>
+          </div>
+
+          <!-- Results-ready banner (shown when all questions are answered) -->
+          <div id="results-ready-banner" class="results-ready-banner">
+            <p>You’ve answered all questions. You can view your results.</p>
+            <button id="btn-view-results" class="btn primary">
+              View results
+            </button>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <!-- Results Screen -->
+    <section id="screen-results" class="screen">
+      <h2>Quiz Results</h2>
+      <div id="winner-banner" class="winner-banner"></div>
+      <p id="results-summary"></p>
+
+      <div id="results-score-card" class="card">
+        <p>
+          <span id="final-label-p1">Player 1</span>:
+          <span id="final-score-p1">0</span>
+        </p>
+        <p>
+          <span id="final-label-p2">Player 2</span>:
+          <span id="final-score-p2">0</span>
+        </p>
+      </div>
+
+      <div class="card" id="card-name-entry">
+        <p class="muted">
+          Only logged-in players can save scores to the leaderboard.
+        </p>
+        <button id="btn-save-score" class="btn secondary">Save Score</button>
+        <p id="save-status" class="muted"></p>
+      </div>
+
+      <button id="btn-play-again" class="btn primary">Play Again</button>
+      <button id="btn-back-setup" class="btn">Back to Setup</button>
+      <button id="btn-results-leaderboard" class="btn">🏆</button>
+    </section>
+
+    <!-- Leaderboard Screen -->
+    <section id="screen-leaderboard" class="screen">
+      <h2 id="leaderboard-title">Leaderboard</h2>
+      <div class="card">
+        <ol id="leaderboard-list" class="leaderboard-list"></ol>
+        <p id="leaderboard-empty" class="muted">
+          No scores saved yet for this category.
+        </p>
+      </div>
+      <button id="btn-leaderboard-back" class="btn">Back</button>
+    </section>
+
+    <!-- NEW: My Quizzes Screen -->
+    <section id="screen-my-quizzes" class="screen">
+      <h1>My Quizzes</h1>
+      <p class="muted">
+        Create your own quizzes, add questions, then play them in solo or two-player mode.
+      </p>
+
+      <div class="my-quizzes-layout">
+        <!-- Left: quiz list + meta -->
+        <div class="card">
+          <h2>Your quizzes</h2>
+          <ul id="quiz-list" class="quiz-list"></ul>
+          <p id="quiz-list-empty" class="muted">
+            You haven’t created any quizzes yet.
+          </p>
+
+          <form id="quiz-form" class="quiz-form">
+            <h3>Create / edit quiz</h3>
+            <label for="quiz-title">Title</label>
+            <input id="quiz-title" type="text" placeholder="e.g. European Capitals" />
+
+            <label for="quiz-description">Description</label>
+            <textarea
+              id="quiz-description"
+              rows="2"
+              placeholder="Short description (optional)"
+            ></textarea>
+
+            <div class="quiz-form-actions">
+              <button type="submit" class="btn primary">Save quiz</button>
+              <button type="button" id="btn-delete-quiz" class="btn secondary">
+                Delete
+              </button>
+              <button type="button" id="btn-clear-quiz-form" class="btn">
+                Clear
+              </button>
+            </div>
+            <p id="quiz-form-status" class="muted"></p>
+          </form>
+        </div>
+
+        <!-- Right: questions for selected quiz -->
+        <div class="card">
+          <h2 id="questions-panel-title">Questions in this quiz</h2>
+          <ul id="quiz-question-list" class="quiz-question-list"></ul>
+          <p id="quiz-question-empty" class="muted">
+            Select a quiz on the left to see and add questions.
+          </p>
+
+          <form id="quiz-question-form" class="quiz-question-form">
+            <h3>Add / edit question</h3>
+            <label for="qq-text">Question</label>
+            <textarea
+              id="qq-text"
+              rows="2"
+              placeholder="Type your question here"
+            ></textarea>
+
+            <label>Options</label>
+            <input id="qq-opt-a" type="text" placeholder="Option 1" />
+            <input id="qq-opt-b" type="text" placeholder="Option 2" />
+            <input id="qq-opt-c" type="text" placeholder="Option 3" />
+            <input id="qq-opt-d" type="text" placeholder="Option 4" />
+
+            <label for="qq-correct">Correct answer</label>
+            <select id="qq-correct">
+              <option value="0">Option 1</option>
+              <option value="1">Option 2</option>
+              <option value="2">Option 3</option>
+              <option value="3">Option 4</option>
+            </select>
+
+            <div class="quiz-form-actions">
+              <button type="submit" class="btn secondary">Save question</button>
+              <button type="button" id="btn-delete-question" class="btn">
+                Delete question
+              </button>
+              <button type="button" id="btn-clear-question-form" class="btn">
+                Clear
+              </button>
+            </div>
+            <p id="quiz-question-status" class="muted"></p>
+          </form>
+
+          <div class="my-quiz-play-actions">
+            <span class="builder-mode-label">Mode:</span>
+            <label>
+              <input type="radio" name="my-quiz-mode" value="solo" checked />
+              Solo
+            </label>
+            <label>
+              <input type="radio" name="my-quiz-mode" value="vs" />
+              Two-player
+            </label>
+
+            <button id="btn-play-my-quiz" class="btn primary">
+              ▶ Play this quiz
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <button id="btn-my-quizzes-back" class="btn">Back to setup</button>
+    </section>
+
+    <!-- NEW: Custom Quiz Play Screen -->
+    <section id="screen-custom-quiz" class="screen">
+      <div class="quiz-layout">
+        <aside class="quiz-info-panel">
+          <h2 id="custom-info-title">My Custom Quiz</h2>
+
+          <div class="info-metrics">
+            <div>
+              <span id="custom-total-questions">0</span>
+              <small>Questions</small>
+            </div>
+            <div>
+              <span id="custom-current-question">0</span>
+              <small>Current</small>
+            </div>
+            <div>
+              <span id="custom-score">0</span>
+              <small id="custom-score-label">Score</small>
+            </div>
+          </div>
+
+          <div class="info-illustration">
+            <div class="info-icon">
+              <span class="info-icon-inner">🛠️</span>
+            </div>
+          </div>
+        </aside>
+
+        <main class="quiz-main-panel">
+          <div class="quiz-header">
+            <div>
+              <p id="custom-player-label">Solo mode – My quiz</p>
+            </div>
+            <div class="score-panel" id="custom-vs-score-panel">
+              <p>
+                <span id="custom-label-p1">Player 1</span>:
+                <span id="custom-score-p1">0</span>
+              </p>
+              <p>
+                <span id="custom-label-p2">Player 2</span>:
+                <span id="custom-score-p2">0</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card question-card">
+            <p id="custom-question-counter"></p>
+            <h3 id="custom-question-text"></h3>
+            <div id="custom-options-container" class="options"></div>
+          </div>
+
+          <div class="quiz-nav">
+            <button id="custom-btn-prev" class="btn" disabled>Previous</button>
+            <button id="custom-btn-next" class="btn secondary" disabled>Next</button>
+            <button id="custom-btn-quit" class="btn">Quit</button>
+          </div>
+
+          <div id="custom-results-banner" class="results-ready-banner">
+            <p id="custom-results-text"></p>
+            <button id="custom-btn-restart" class="btn primary">Play again</button>
+          </div>
+
+          <p id="custom-quiz-status" class="muted"></p>
+        </main>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Data + config -->
+  <script src="js/data.js"></script>
+  <!-- Core state + helpers -->
+  <script src="js/core.js"></script>
+  <!-- Auth (login / register / token) -->
+  <script src="js/auth.js"></script>
+  <!-- DOM + home/setup/summary UI -->
+  <script src="js/home.js"></script>
+  <!-- Quiz logic -->
+  <script src="js/quiz.js"></script>
+  <!-- Leaderboard logic -->
+  <script src="js/leaderboard.js"></script>
+  <!-- NEW: My quizzes UI -->
+  <script src="js/my-quizzes.js"></script>
+  <!-- NEW: Custom quiz play logic -->
+  <script src="js/custom-quiz.js"></script>
+  <!-- Event wiring -->
+  <script src="js/events.js"></script>
+</body>
+</html>

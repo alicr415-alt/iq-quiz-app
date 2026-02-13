@@ -1,0 +1,934 @@
+/* Basic reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: radial-gradient(circle at top, #4c1d95, #020617 60%);
+  color: #f9fafb;
+  min-height: 100vh;
+}
+
+/* Background image layer controlled by theme/subtheme classes */
+.background-overlay {
+  position: fixed;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Main category backgrounds (fallback / Mixed) */
+body.theme-gk .background-overlay {
+  background-image: url("../img/bg-gk-mixed.jpg");
+}
+
+body.theme-sports .background-overlay {
+  background-image: url("../img/bg-sports-mixed.jpg");
+}
+
+body.theme-science .background-overlay {
+  background-image: url("../img/bg-science-mixed.jpg");
+}
+
+/* Subcategory-specific backgrounds override the main one */
+body.subtheme-gk-geography .background-overlay {
+  background-image: url("../img/bg-gk-geography.jpg");
+}
+
+body.subtheme-gk-history .background-overlay {
+  background-image: url("../img/bg-gk-history.jpg");
+}
+
+body.subtheme-science-physics .background-overlay {
+  background-image: url("../img/bg-science-physics.jpg");
+}
+
+body.subtheme-science-biology .background-overlay {
+  background-image: url("../img/bg-science-biology.jpg");
+}
+
+body.subtheme-sports-football .background-overlay {
+  background-image: url("../img/bg-sports-football.jpg");
+}
+
+body.subtheme-sports-cricket .background-overlay {
+  background-image: url("../img/bg-sports-cricket.jpg");
+}
+
+body.subtheme-sports-basketball .background-overlay {
+  background-image: url("../img/bg-sports-basketball.jpg");
+}
+
+/* Main app container */
+.app-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+/* Screens */
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+/* Generic panel styling for non-landing screens */
+#screen-setup,
+#screen-summary,
+#screen-quiz,
+#screen-results,
+#screen-leaderboard {
+  background: rgba(15, 23, 42, 0.92);
+  border-radius: 1.25rem;
+  padding: 1.5rem 1.75rem 1.75rem;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Landing / home page */
+#screen-landing {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.logo {
+  font-size: 3rem;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.2rem;
+}
+
+.landing-inner {
+  max-width: 560px;
+  margin: 0 auto;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 1.5rem;
+  padding: 2rem 2.25rem;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+}
+
+.landing-text {
+  margin-top: 0.75rem;
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.landing-short {
+  margin-bottom: 0.5rem;
+}
+
+.landing-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin: 1.25rem 0 0.75rem;
+  font-size: 0.85rem;
+  color: #d1d5db;
+}
+
+.landing-meta-inline {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Cards */
+.card {
+  background: rgba(15, 23, 42, 0.92);
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.question-card {
+  border: 1px solid #4b5563;
+}
+
+/* Category-specific question card borders */
+body.theme-gk .question-card {
+  border-color: #38bdf8;
+}
+
+body.theme-sports .question-card {
+  border-color: #22c55e;
+}
+
+body.theme-science .question-card {
+  border-color: #a855f7;
+}
+
+/* Headings & text */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.tagline {
+  color: #9ca3af;
+  margin-bottom: 0.25rem;
+}
+
+.muted {
+  color: #9ca3af;
+  font-size: 0.85rem;
+  margin-top: 0.35rem;
+}
+
+.status-success {
+  color: #4ade80;
+}
+
+.status-error {
+  color: #f97373;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  margin-right: 0.5rem;
+  background: #374151;
+  color: #f9fafb;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+}
+
+.btn.primary {
+  background: #2563eb;
+}
+
+.btn.secondary {
+  background: #6b21a8;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.btn:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Form controls */
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #4b5563;
+  background: #030712;
+  color: #f9fafb;
+  margin-top: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+label input[type="radio"] {
+  margin-right: 0.35rem;
+}
+
+/* Hide original selects but keep for JS & accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Category / subcategory tile grid */
+.pill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+/* Tile style */
+.pill-card {
+  border-radius: 1rem;
+  border: 1px solid #4b5563;
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(15, 23, 42, 0.93)
+  );
+  padding: 0.7rem 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  color: #e5e7eb;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.08s ease,
+    box-shadow 0.08s ease;
+}
+
+.pill-card .pill-icon {
+  font-size: 1.2rem;
+}
+
+.pill-card .pill-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.pill-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+  border-color: #60a5fa;
+}
+
+.pill-card.active {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.8);
+}
+
+/* Slight difference between category and subcategory tiles */
+.category-card {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(30, 64, 175, 0.7)
+  );
+}
+
+.subcategory-card {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(30, 64, 175, 0.35)
+  );
+}
+
+/* VS player names on setup */
+.vs-name-fields {
+  margin-top: 0.75rem;
+  display: none;
+}
+
+.vs-name-fields.visible {
+  display: block;
+}
+
+/* Summary card */
+.summary-card {
+  max-width: 480px;
+  margin: 3rem auto 0;
+  padding: 2rem 2.25rem;
+  border-radius: 1.5rem;
+  background: rgba(15, 23, 42, 0.9);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.summary-grid {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.25rem 0 0.75rem;
+}
+
+.summary-number {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.summary-grid small {
+  color: #d1d5db;
+}
+
+.summary-diff {
+  margin-top: 0.25rem;
+}
+
+.summary-actions {
+  margin-top: 1.25rem;
+}
+
+/* Quiz layout */
+.quiz-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 1.5rem;
+}
+
+.quiz-info-panel {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 1rem;
+  padding: 1.5rem 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.quiz-info-panel h2 {
+  margin-bottom: 1rem;
+}
+
+.info-metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.info-metrics div span {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.info-metrics div small {
+  color: #9ca3af;
+}
+
+.info-illustration {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Big emoji tile on the left of quiz */
+.info-icon {
+  width: 140px;
+  height: 140px;
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  line-height: 1;
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(30, 64, 175, 0.8)
+  );
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.55);
+}
+
+/* inner span that actually animates */
+.info-icon-inner {
+  display: inline-block;
+}
+
+/* Tint the tile slightly per main category */
+body.theme-gk .info-icon {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(56, 189, 248, 0.75)
+  );
+  border-color: #38bdf8;
+}
+
+body.theme-sports .info-icon {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(34, 197, 94, 0.75)
+  );
+  border-color: #22c55e;
+}
+
+body.theme-science .info-icon {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(168, 85, 247, 0.75)
+  );
+  border-color: #a855f7;
+}
+
+.quiz-main-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.score-panel p {
+  font-size: 0.9rem;
+}
+
+/* Options – base style */
+.options {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.option-btn {
+  width: 100%;
+  text-align: left;
+  border-radius: 0.75rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #4b5563;
+  background: rgba(15, 23, 42, 0.95);
+  cursor: pointer;
+  transition: background 0.1s ease, border-color 0.1s ease, transform 0.05s ease;
+  font-size: 0.98rem;
+  color: #e5e7eb;
+}
+
+/* Theme-specific option colours (category level) */
+body.theme-gk .option-btn {
+  border-color: #38bdf8;
+}
+
+body.theme-gk .option-btn:hover {
+  background: rgba(15, 23, 42, 0.98);
+  border-color: #0ea5e9;
+}
+
+body.theme-sports .option-btn {
+  border-color: #22c55e;
+}
+
+body.theme-sports .option-btn:hover {
+  background: rgba(5, 46, 22, 0.95);
+  border-color: #4ade80;
+}
+
+body.theme-science .option-btn {
+  border-color: #a855f7;
+}
+
+body.theme-science .option-btn:hover {
+  background: rgba(46, 16, 101, 0.95);
+  border-color: #c4b5fd;
+}
+
+/* Subcategory-specific border accents */
+body.subtheme-gk-geography .question-card,
+body.subtheme-gk-geography .option-btn {
+  border-color: #22d3ee;
+}
+
+body.subtheme-gk-history .question-card,
+body.subtheme-gk-history .option-btn {
+  border-color: #fbbf24;
+}
+
+body.subtheme-science-physics .question-card,
+body.subtheme-science-physics .option-btn {
+  border-color: #38bdf8;
+}
+
+body.subtheme-science-biology .question-card,
+body.subtheme-science-biology .option-btn {
+  border-color: #4ade80;
+}
+
+body.subtheme-sports-football .question-card,
+body.subtheme-sports-football .option-btn {
+  border-color: #22c55e;
+}
+
+body.subtheme-sports-cricket .question-card,
+body.subtheme-sports-cricket .option-btn {
+  border-color: #facc15;
+}
+
+body.subtheme-sports-basketball .question-card,
+body.subtheme-sports-basketball .option-btn {
+  border-color: #fb923c;
+}
+
+/* Correct / incorrect states */
+.option-btn.correct {
+  background: #14532d;
+  border-color: #22c55e;
+}
+
+.option-btn.incorrect {
+  background: #7f1d1d;
+  border-color: #f97373;
+}
+
+/* Quiz navigation buttons row */
+.quiz-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+/* Results-ready banner on quiz screen */
+.results-ready-banner {
+  display: none;
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid #22c55e;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.results-ready-banner.visible {
+  display: flex;
+}
+
+.results-ready-banner p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Results screen tweaks */
+#screen-results h2 {
+  margin-bottom: 0.75rem;
+}
+
+#screen-results #results-summary {
+  margin-bottom: 0.75rem;
+}
+
+#card-name-entry {
+  margin-top: 0.75rem;
+}
+
+/* Winner banner for VS mode */
+.winner-banner {
+  display: none;
+  margin: 0.25rem 0 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.85rem;
+  background: linear-gradient(
+    135deg,
+    rgba(22, 163, 74, 0.35),
+    rgba(37, 99, 235, 0.25)
+  );
+  border: 1px solid rgba(34, 197, 94, 0.7);
+  font-weight: 500;
+  animation: winnerGlow 1.4s ease-in-out infinite;
+}
+
+.winner-banner.visible {
+  display: block;
+}
+
+.winner-banner.draw {
+  border-color: #38bdf8;
+  background: linear-gradient(
+    135deg,
+    rgba(56, 189, 248, 0.25),
+    rgba(129, 140, 248, 0.25)
+  );
+  animation: drawPulse 1.4s ease-in-out infinite;
+}
+
+/* Leaderboard */
+.leaderboard-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.leaderboard-list li {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #1f2937;
+  font-size: 0.95rem;
+}
+
+/* ---------- Category-level theming (whole page feel) ---------- */
+
+body.theme-gk #screen-quiz,
+body.theme-gk #screen-setup,
+body.theme-gk #screen-summary {
+  background: radial-gradient(circle at top, #0f172a, #020617 65%);
+}
+
+body.theme-gk .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(8, 47, 73, 0.98)
+  );
+}
+
+body.theme-gk .btn.primary {
+  background: #0ea5e9;
+}
+
+body.theme-science #screen-quiz,
+body.theme-science #screen-setup,
+body.theme-science #screen-summary {
+  background: radial-gradient(circle at top, #2e1065, #020617 65%);
+}
+
+body.theme-science .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(24, 16, 55, 0.98),
+    rgba(88, 28, 135, 0.98)
+  );
+}
+
+body.theme-science .btn.primary {
+  background: #8b5cf6;
+}
+
+body.theme-sports #screen-quiz,
+body.theme-sports #screen-setup,
+body.theme-sports #screen-summary {
+  background: radial-gradient(circle at top, #052e16, #020617 65%);
+}
+
+body.theme-sports .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(5, 46, 22, 0.98),
+    rgba(2, 24, 13, 0.98)
+  );
+}
+
+body.theme-sports .btn.primary {
+  background: #22c55e;
+}
+
+/* ---------- Subcategory-level extra theming (panel glows) ---------- */
+
+body.subtheme-gk-geography .quiz-main-panel {
+  box-shadow: 0 0 30px rgba(45, 212, 191, 0.2);
+}
+
+body.subtheme-gk-geography .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(8, 47, 73, 0.85)
+  );
+}
+
+body.subtheme-gk-history .quiz-main-panel {
+  box-shadow: 0 0 30px rgba(251, 191, 36, 0.25);
+}
+
+body.subtheme-gk-history .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(120, 53, 15, 0.85)
+  );
+}
+
+body.subtheme-science-physics .quiz-main-panel {
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.25);
+}
+
+body.subtheme-science-physics .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(24, 16, 55, 0.98),
+    rgba(30, 64, 175, 0.85)
+  );
+}
+
+body.subtheme-science-biology .quiz-main-panel {
+  box-shadow: 0 0 30px rgba(74, 222, 128, 0.25);
+}
+
+body.subtheme-science-biology .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(24, 16, 55, 0.98),
+    rgba(22, 101, 52, 0.85)
+  );
+}
+
+body.subtheme-sports-football .quiz-main-panel {
+  box-shadow: 0 0 30px rgba(34, 197, 94, 0.3);
+}
+
+body.subtheme-sports-football .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(5, 46, 22, 0.98),
+    rgba(22, 163, 74, 0.9)
+  );
+}
+
+body.subtheme-sports-cricket .quiz-main-panel {
+  box-shadow: 0 0 30px rgba(250, 204, 21, 0.3);
+}
+
+body.subtheme-sports-cricket .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(5, 46, 22, 0.98),
+    rgba(202, 138, 4, 0.9)
+  );
+}
+
+body.subtheme-sports-basketball .quiz-main-panel {
+  box-shadow: 0 0 30px rgba(251, 146, 60, 0.3);
+}
+
+body.subtheme-sports-basketball .quiz-info-panel {
+  background: linear-gradient(
+    145deg,
+    rgba(5, 46, 22, 0.98),
+    rgba(194, 65, 12, 0.9)
+  );
+}
+
+/* ---------- Icon animations (apply to .info-icon-inner) ---------- */
+
+/* simple spin (football, sports) */
+.icon-anim-spin {
+  animation: iconSpin 2.4s linear infinite;
+}
+
+@keyframes iconSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* bounce for basketball */
+.icon-anim-bounce {
+  animation: iconBounce 0.8s ease-in-out infinite;
+}
+
+@keyframes iconBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* bat swing for cricket */
+.icon-anim-swing {
+  animation: iconSwing 1s ease-in-out infinite;
+}
+
+@keyframes iconSwing {
+  0%, 100% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+}
+
+/* gentle pulse (mixed, biology, history, etc.) */
+.icon-anim-pulse {
+  animation: iconPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes iconPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+/* orbit wobble for geography */
+.icon-anim-orbit {
+  animation: iconOrbit 1.6s ease-in-out infinite;
+}
+
+@keyframes iconOrbit {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(3px, -3px);
+  }
+  50% {
+    transform: translate(0, -6px);
+  }
+  75% {
+    transform: translate(-3px, -3px);
+  }
+}
+
+/* Winner glow & draw pulse */
+@keyframes winnerGlow {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(34, 197, 94, 0.0);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(34, 197, 94, 0.8);
+  }
+}
+
+@keyframes drawPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(56, 189, 248, 0.0);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 22px rgba(56, 189, 248, 0.7);
+  }
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .app-container {
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
+  .quiz-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-inner {
+    padding: 1.75rem 1.5rem;
+  }
+}

@@ -1,0 +1,769 @@
+[
+  {
+    "id": 1,
+    "question": "How many players does one basketball team have on the court during play?",
+    "options": ["4", "5", "6", "7"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "What is the shape of a standard basketball?",
+    "options": ["Cube", "Cylinder", "Sphere", "Pyramid"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "How many points is a free throw worth?",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "How many points is a regular field goal made inside the three-point line worth?",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "How many points is a basket scored from beyond the three-point line worth?",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "What is it called when a player moves with the ball without dribbling?",
+    "options": ["Traveling", "Double dribble", "Carrying", "Foul"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "What is it called when a player bounces the ball continuously while moving?",
+    "options": ["Passing", "Shooting", "Dribbling", "Screening"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "What is the area directly under the basket called?",
+    "options": ["Key or paint", "Backcourt", "Wing", "Corner"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "What is the term for a successful shot that goes into the basket?",
+    "options": ["Brick", "Miss", "Field goal", "Airball"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "Which player position is generally responsible for bringing the ball up the court and starting the offence?",
+    "options": ["Centre", "Point guard", "Power forward", "Small forward"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "What is the name of the line that separates the frontcourt from the backcourt?",
+    "options": ["Baseline", "Sideline", "Half-court line", "Free-throw line"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "What is it called when a player jumps and catches the ball after a missed shot?",
+    "options": ["Steal", "Block", "Rebound", "Assist"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "What is the term for illegally contacting an opponent in a way that affects play?",
+    "options": ["Violation", "Foul", "Timeout", "Jump ball"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "How many personal fouls does a player usually get before fouling out in many professional leagues?",
+    "options": ["3", "4", "5", "6"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "What do we call a pass that leads directly to a made basket?",
+    "options": ["Turnover", "Assist", "Block", "Screen"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "What is the rectangular board behind the basket called?",
+    "options": ["Backboard", "Scoreboard", "Support board", "Glass"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "What is it called when a defender legally deflects or stops a shot on its way to the basket?",
+    "options": ["Steal", "Block", "Travel", "Charge"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "What is the semi-circle under the basket often called?",
+    "options": ["No-charge circle", "Free-throw circle", "Centre circle", "Three-point arc"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "What is a 'jump ball' used for at the start of the game?",
+    "options": [
+      "To decide which team shoots first",
+      "To decide which team gets the ball first",
+      "To decide who referees",
+      "To decide the score"
+    ],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "What happens if the ball goes out of bounds?",
+    "options": [
+      "Play continues",
+      "The team that touched it last loses possession",
+      "Both teams lose points",
+      "A free throw is taken"
+    ],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "What is the term for a missed shot that does not touch the rim or backboard?",
+    "options": ["Brick", "Airball", "Swish", "Bank shot"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "Which line do players stand behind when attempting a free throw?",
+    "options": ["Three-point line", "Baseline", "Sideline", "Free-throw line"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "What is it called when a player grabs the ball from an opponent who is dribbling or holding it?",
+    "options": ["Steal", "Block", "Travel", "Charge"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "What is the name of the position usually played by the tallest player near the basket?",
+    "options": ["Point guard", "Shooting guard", "Small forward", "Centre"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "What is the term for successfully catching a pass and then immediately shooting in one motion?",
+    "options": ["Lay-up", "Catch and shoot", "Dunk", "Hook shot"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 26,
+    "question": "What does a 'double dribble' violation involve?",
+    "options": [
+      "Dribbling with two hands at the same time or stopping dribbling and then starting again",
+      "Dribbling too fast",
+      "Dribbling only with the left hand",
+      "Dribbling inside the key"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "What is the typical shot clock duration in many professional leagues?",
+    "options": ["12 seconds", "14 seconds", "24 seconds", "30 seconds"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "What is the main purpose of a 'screen' (or pick) on offence?",
+    "options": [
+      "To block a shot",
+      "To free a teammate by legally blocking a defender’s path",
+      "To delay the game",
+      "To draw a foul deliberately"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "What is the difference between a 'charge' and a 'block' foul?",
+    "options": [
+      "Charge is on defence, block is on offence",
+      "Charge is an offensive player running into a legal defender; block is when the defender is not in legal position",
+      "Charge only happens under the basket",
+      "Block only happens at half-court"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "What does 'backcourt violation' usually mean?",
+    "options": [
+      "Stepping on the baseline",
+      "Taking too long to cross the half-court line with the ball",
+      "Throwing the ball off the backboard",
+      "Shooting from behind half-court"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "What is the three-second rule on offence?",
+    "options": [
+      "An offensive player cannot stay in the key (paint) for more than three seconds",
+      "A shot must be taken within three seconds",
+      "Three passes must be made before a shot",
+      "A free throw must be taken in three seconds"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "What is a 'pick-and-roll' play?",
+    "options": [
+      "A defender switching positions",
+      "A shooter running to the corner",
+      "A player sets a screen (pick) and then moves (rolls) towards the basket for a pass",
+      "A fast-break play only"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "What does 'man-to-man defence' mean?",
+    "options": [
+      "Each defender is responsible for guarding a specific player",
+      "Each defender guards an area of the court",
+      "All players double-team the ball",
+      "Only one player defends"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "What does 'zone defence' mean?",
+    "options": [
+      "Each defender guards a specific offensive player",
+      "Each defender guards an area (zone) of the court",
+      "Only one defender guards the ball at all times",
+      "Defenders cannot move"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "Which statistic measures the number of times a player successfully steals the ball from an opponent?",
+    "options": ["Blocks", "Steals", "Rebounds", "Assists"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "Which statistic tracks the number of missed field goals a player or team has?",
+    "options": ["Turnovers", "Field goal attempts", "Field goal percentage", "Misses (FGM vs FGA)"],
+    "answerIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "What is a 'fast break'?",
+    "options": [
+      "An intentional foul",
+      "A quick transition from defence to offence to score before the defence is set",
+      "A timeout",
+      "A long rest at half-time"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "question": "What is 'boxing out' in rebounding?",
+    "options": [
+      "Dribbling around the opponent",
+      "Standing still under the basket",
+      "Using your body to keep an opponent away from the ball on a rebound",
+      "Calling for a timeout"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "What is a 'turnover' in basketball?",
+    "options": [
+      "A made shot",
+      "A foul",
+      "Losing possession of the ball to the other team before attempting a shot",
+      "A successful free throw"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "question": "What is the main purpose of a 'full-court press' defence?",
+    "options": [
+      "To rest defenders",
+      "To apply heavy pressure all over the court and force turnovers",
+      "To allow more three-point shots",
+      "To defend only near the basket"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "What is a 'baseline' in basketball?",
+    "options": [
+      "The line at mid-court",
+      "The line at the top of the key",
+      "The line under each basket at the end of the court",
+      "The three-point line"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "What is a 'wing' position on the court?",
+    "options": [
+      "Directly under the basket",
+      "Near the three-point line on the left or right side of the court",
+      "On the free-throw line",
+      "Behind the basket"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "What does 'AND-1' mean?",
+    "options": [
+      "A missed shot plus a rebound",
+      "A made basket while being fouled, plus one free throw",
+      "A turnover plus a foul",
+      "A three-pointer plus one free throw"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "What is 'help defence'?",
+    "options": [
+      "Ignoring your man",
+      "A defender leaving their own player to help guard a teammate’s player",
+      "Only double-teaming the ball handler",
+      "Standing under the basket"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "What is 'ball movement' in offensive strategy?",
+    "options": [
+      "Dribbling in place",
+      "Quick passing and changing positions to create open shots",
+      "Only shooting three-pointers",
+      "Holding the ball until the shot clock is low"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "What is meant by 'shooting percentage'?",
+    "options": [
+      "Number of shots taken",
+      "Number of shots blocked",
+      "The percentage of field goals made from those attempted",
+      "The number of shots missed"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "What is a 'bank shot'?",
+    "options": [
+      "A shot that does not touch the rim",
+      "A shot that hits the backboard before going into the basket",
+      "A shot from behind half-court",
+      "A dunk"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "Which statistic measures how many total rebounds a player collects in a game?",
+    "options": ["REB", "AST", "STL", "BLK"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "What is a 'no-look pass'?",
+    "options": [
+      "A pass without bouncing the ball",
+      "A pass made while looking in a different direction to deceive defenders",
+      "A pass made with eyes closed",
+      "A pass only used in warm-ups"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "What is the main purpose of spacing on offence?",
+    "options": [
+      "To crowd around the ball",
+      "To create room for drives, cuts and open shots",
+      "To let defenders rest",
+      "To waste time"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 51,
+    "question": "In advanced statistics, what does 'True Shooting Percentage' (TS%) attempt to measure?",
+    "options": [
+      "Only three-point shooting",
+      "Shooting efficiency considering field goals, three-pointers and free throws",
+      "Only free-throw accuracy",
+      "Only mid-range shooting"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "question": "What does 'Usage Rate' generally represent in basketball analytics?",
+    "options": [
+      "How much a player runs",
+      "The percentage of team possessions a player ends with a shot, free throws or turnover",
+      "How often a player is substituted",
+      "How many minutes a player plays"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "question": "What is 'Offensive Rating' (ORtg) in advanced stats?",
+    "options": [
+      "Team’s defence points allowed",
+      "Points scored per 100 possessions by a player or team",
+      "Points scored per minute",
+      "Points scored only from three-pointers"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "question": "What is the main tactical goal of a 'drive-and-kick' offence?",
+    "options": [
+      "Drive into the paint and then pass out to open shooters on the perimeter",
+      "Drive and always shoot",
+      "Kick the ball instead of dribbling",
+      "Only use post players"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 55,
+    "question": "In pick-and-roll defence, what does 'hedging' the screen involve?",
+    "options": [
+      "Ignoring the screen",
+      "The screener’s defender briefly stepping out to slow the ball handler before recovering",
+      "Switching defenders permanently",
+      "Double-teaming the screener"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "question": "What is the main disadvantage of using an aggressive full-court press for long periods?",
+    "options": [
+      "Too many three-pointers attempted",
+      "Players tire quickly and may give up easy baskets if beaten",
+      "Less ball movement on offence",
+      "Fewer rebounds"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "question": "What does 'switching' mean in modern pick-and-roll defence?",
+    "options": [
+      "Ignoring picks and staying with your man",
+      "Two defenders following the ball handler",
+      "Defenders exchange assignments so the screener’s defender takes the ball handler",
+      "Only the big man defends"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "question": "What is 'drop coverage' in defending the pick-and-roll?",
+    "options": [
+      "The big defender moves up to half-court",
+      "The big defender drops back towards the basket to protect against drives and lobs",
+      "The guard runs away from the ball",
+      "All defenders collapse on the screener"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "question": "What does 'Effective Field Goal Percentage' (eFG%) account for that normal field goal percentage does not?",
+    "options": [
+      "Free throws",
+      "Turnovers",
+      "Three-pointers being worth more than two-pointers",
+      "Rebounds"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "What is 'pace' in basketball analytics?",
+    "options": [
+      "Number of minutes played",
+      "Number of possessions per game",
+      "Speed of fast breaks only",
+      "Distance players run"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "Tactically, what is the main advantage of a 'five-out' offensive set?",
+    "options": [
+      "Crowds the paint",
+      "Puts all five players on the perimeter to create maximum driving lanes and spacing",
+      "Prevents three-point shots",
+      "Eliminates ball movement"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "question": "What does 'lineup versatility' refer to?",
+    "options": [
+      "Having only tall players",
+      "The ability to use different combinations of players and positions effectively",
+      "Never substituting",
+      "Only using small players"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "What is the primary goal of 'small-ball' lineups?",
+    "options": [
+      "Increase height",
+      "Play slower and more physical",
+      "Use smaller, quicker players to increase speed, spacing and three-point shooting",
+      "Avoid three-point shots"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "question": "What does 'rim protection' generally describe in defensive metrics?",
+    "options": [
+      "Protecting the three-point line",
+      "Preventing drives to the basket",
+      "How effectively a team or player prevents and contests shots near the basket",
+      "Defending the sidelines"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "In late-game situations, what is the main idea behind 'two-for-one' clock management?",
+    "options": [
+      "Take two timeouts in a row",
+      "Commit two fouls quickly",
+      "Time the first shot so your team can get the ball back for a second possession before the clock expires",
+      "Shoot only two-pointers"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "What is meant by 'paint touches' as a metric or concept?",
+    "options": [
+      "Number of times players take free throws",
+      "Number of times the ball is passed near the sideline",
+      "Number of times the ball or a player penetrates into the key/paint area on offence",
+      "Number of times players are substituted"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "What is 'weak side' in offensive and defensive schemes?",
+    "options": [
+      "Side of the court with the ball",
+      "Side of the court without the ball",
+      "Side with the strongest players",
+      "Side where only guards play"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "What is the main aim of 'staggered screens' in offensive sets?",
+    "options": [
+      "Set one screen only",
+      "Use two or more screens in sequence to free a shooter or ball handler",
+      "Only screen the ball handler",
+      "Waste the shot clock"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "In analytics, what does 'on-off rating' usually show?",
+    "options": [
+      "Difference in team performance when a player is on the court compared to when they are off",
+      "Player’s shooting form",
+      "Number of injuries",
+      "Number of fouls committed"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "What is 'ice' or 'down' coverage in pick-and-roll defence on the side of the floor?",
+    "options": [
+      "Forcing the ball handler towards the screen",
+      "Forcing the ball handler away from the middle and keeping them on the sideline baseline side",
+      "Always switching defenders",
+      "Double-teaming the screener"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "question": "What does 'closeout' mean for a defender?",
+    "options": [
+      "Running towards the shooter under control to contest the shot without fouling",
+      "Leaving the shooter alone",
+      "Running past the shooter",
+      "Only defending the paint"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "What is 'drive-and-kick spacing' designed to prevent on defence?",
+    "options": [
+      "Offensive rebounds",
+      "Turnovers",
+      "Defenders collapsing too deeply and leaving shooters wide open on the perimeter",
+      "Fast breaks"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "What is the main goal of a 'horns' offensive set (two bigs at the elbows)?",
+    "options": [
+      "Never use screens",
+      "Create multiple options out of high screens, handoffs and cuts from the elbow spots",
+      "Keep everyone in the corners",
+      "Only post up the centre"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "What is 'tagging the roller' in pick-and-roll defence?",
+    "options": [
+      "Fouling the screener",
+      "A help defender briefly bumping or checking the player rolling to the basket to slow them down",
+      "Double-teaming the ball handler",
+      "Only guarding shooters"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "What is the main reason coaches study 'shot charts' for players and teams?",
+    "options": [
+      "To see who commits the most fouls",
+      "To see where on the court players shoot best or worst and adjust strategy",
+      "To count turnovers",
+      "To choose jersey numbers"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,551 @@
+/* Basic reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: radial-gradient(circle at top, #4c1d95, #020617 60%);
+  color: #f9fafb;
+  min-height: 100vh;
+}
+
+/* Background image layer controlled by theme/subtheme classes */
+.background-overlay {
+  position: fixed;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Main category backgrounds (fallback / Mixed) */
+body.theme-gk .background-overlay {
+  background-image: url("../img/bg-gk-mixed.jpg");
+}
+
+body.theme-sports .background-overlay {
+  background-image: url("../img/bg-sports-mixed.jpg");
+}
+
+body.theme-science .background-overlay {
+  background-image: url("../img/bg-science-mixed.jpg");
+}
+
+/* Subcategory-specific backgrounds override the main one */
+body.subtheme-gk-geography .background-overlay {
+  background-image: url("../img/bg-gk-geography.jpg");
+}
+
+body.subtheme-gk-history .background-overlay {
+  background-image: url("../img/bg-gk-history.jpg");
+}
+
+body.subtheme-science-physics .background-overlay {
+  background-image: url("../img/bg-science-physics.jpg");
+}
+
+body.subtheme-science-biology .background-overlay {
+  background-image: url("../img/bg-science-biology.jpg");
+}
+
+body.subtheme-sports-football .background-overlay {
+  background-image: url("../img/bg-sports-football.jpg");
+}
+
+body.subtheme-sports-cricket .background-overlay {
+  background-image: url("../img/bg-sports-cricket.jpg");
+}
+
+body.subtheme-sports-basketball .background-overlay {
+  background-image: url("../img/bg-sports-basketball.jpg");
+}
+
+/* Custom quiz theme background */
+body.theme-custom .background-overlay {
+  background-image: url("../img/bg-custom-quiz.jpg");
+}
+
+/* Main app container */
+.app-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+/* Screens */
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+/* Generic panel styling for non-landing screens */
+#screen-setup,
+#screen-summary,
+#screen-quiz,
+#screen-results,
+#screen-leaderboard,
+#screen-my-quizzes,
+#screen-custom-quiz {
+  background: rgba(15, 23, 42, 0.92);
+  border-radius: 1.25rem;
+  padding: 1.5rem 1.75rem 1.75rem;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Landing / home page */
+#screen-landing {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.logo {
+  font-size: 3rem;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.2rem;
+}
+
+.landing-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 1.5rem;
+  padding: 2rem 2.25rem;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+  transition: transform 180ms ease-out, box-shadow 180ms ease-out;
+}
+
+.landing-inner:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.8);
+}
+
+.landing-text {
+  margin-top: 0.75rem;
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.landing-short {
+  margin-bottom: 0.5rem;
+}
+
+/* Setup screen greeting + account button */
+.setup-greeting-row {
+  margin: 0.5rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.setup-greeting-text {
+  font-size: 0.9rem;
+  color: #e5e7eb;
+  opacity: 0.9;
+}
+
+/* Cards */
+.card {
+  background: rgba(15, 23, 42, 0.92);
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Auth card on landing */
+.auth-card {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.auth-title {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #e5e7eb;
+}
+
+.auth-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.auth-row input {
+  flex: 1 1 120px;
+  min-width: 0;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  background: rgba(15, 23, 42, 0.9);
+  color: #e5e7eb;
+  font-size: 0.85rem;
+}
+
+.auth-row input::placeholder {
+  color: #64748b;
+}
+
+.auth-actions .btn {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+#auth-logged-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.auth-user-label {
+  font-weight: 500;
+  color: #a5b4fc;
+}
+
+/* Generic hidden helper */
+.hidden {
+  display: none !important;
+}
+
+.auth-message {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #e5e7eb;
+}
+
+.auth-message.error {
+  color: #fca5a5;
+}
+
+.auth-message.success {
+  color: #a7f3d0;
+}
+
+.question-card {
+  border: 1px solid #4b5563;
+}
+
+/* Category-specific question card borders */
+body.theme-gk .question-card {
+  border-color: #38bdf8;
+}
+
+body.theme-sports .question-card {
+  border-color: #22c55e;
+}
+
+body.theme-science .question-card {
+  border-color: #a855f7;
+}
+
+/* Headings & text */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.tagline {
+  color: #9ca3af;
+  margin-bottom: 0.25rem;
+}
+
+.muted {
+  color: #9ca3af;
+  font-size: 0.85rem;
+  margin-top: 0.35rem;
+}
+
+.status-success {
+  color: #4ade80;
+}
+
+.status-error {
+  color: #f97373;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  margin-right: 0.5rem;
+  background: #374151;
+  color: #f9fafb;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+}
+
+.btn.primary {
+  background: #2563eb;
+}
+
+.btn.secondary {
+  background: #6b21a8;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.btn:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Form controls */
+select,
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #4b5563;
+  background: #030712;
+  color: #f9fafb;
+  margin-top: 0.5rem;
+  resize: vertical;
+}
+
+label {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+label input[type="radio"] {
+  margin-right: 0.35rem;
+}
+
+/* Hide original selects but keep for JS & accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Category / subcategory tile grid */
+.pill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+/* Tile style */
+.pill-card {
+  border-radius: 1rem;
+  border: 1px solid #4b5563;
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(15, 23, 42, 0.93)
+  );
+  padding: 0.7rem 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  color: #e5e7eb;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.08s ease,
+    box-shadow 0.08s ease;
+}
+
+.pill-card .pill-icon {
+  font-size: 1.2rem;
+}
+
+.pill-card .pill-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.pill-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+  border-color: #60a5fa;
+}
+
+.pill-card.active {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.8);
+}
+
+/* Slight difference between category and subcategory tiles */
+.category-card {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(30, 64, 175, 0.7)
+  );
+}
+
+.subcategory-card {
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(30, 64, 175, 0.35)
+  );
+}
+
+/* VS player names on setup */
+.vs-name-fields {
+  margin-top: 0.75rem;
+  display: none;
+}
+
+.vs-name-fields.visible {
+  display: block;
+}
+
+/* My Quizzes layout */
+.my-quizzes-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.3fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.quiz-list {
+  list-style: none;
+  margin-top: 0.75rem;
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.quiz-list-item {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-size: 0.9rem;
+  border: 1px solid transparent;
+}
+
+.quiz-list-item-title {
+  font-weight: 500;
+}
+
+.quiz-list-item-desc {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.quiz-list-item:hover {
+  background: rgba(55, 65, 81, 0.7);
+}
+
+.quiz-list-item.active {
+  background: rgba(37, 99, 235, 0.25);
+  border-color: rgba(37, 99, 235, 0.7);
+}
+
+/* Quiz forms */
+.quiz-form,
+.quiz-question-form {
+  margin-top: 1rem;
+}
+
+.quiz-form-actions {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Question list inside a quiz */
+.quiz-question-list {
+  list-style: none;
+  margin-top: 0.75rem;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.quiz-question-item {
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+}
+
+.quiz-question-item:hover {
+  background: rgba(55, 65, 81, 0.7);
+}
+
+.quiz-question-item.active {
+  background: rgba(37, 99, 235, 0.25);
+  border-color: rgba(37, 99, 235, 0.7);
+}
+
+/* My quiz play actions */
+.my-quiz-play-actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.builder-mode-label {
+  font-size: 0.9rem;
+}
+
+/* Custom quiz option buttons colouring */
+.option-btn.correct {
+  background: #16a34a;
+}
+
+.option-btn.incorrect {
+  background: #b91c1c;
+}
+
+/* Responsive tweaks */
+@media (max-width: 820px) {
+  .my-quizzes-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

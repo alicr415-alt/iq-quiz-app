@@ -1,0 +1,614 @@
+[
+  {
+    "id": 1,
+    "question": "Who was the first President of the United States?",
+    "options": ["George Washington", "John Adams", "Thomas Jefferson", "James Madison"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "In which country were the ancient pyramids of Giza built?",
+    "options": ["Greece", "Egypt", "Mexico", "India"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Which war was fought between the northern and southern states of the USA?",
+    "options": ["American Civil War", "World War I", "War of 1812", "Vietnam War"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Which famous queen ruled England from 1558 to 1603?",
+    "options": ["Queen Victoria", "Queen Elizabeth II", "Queen Mary I", "Queen Elizabeth I"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "In which year did World War II end?",
+    "options": ["1943", "1944", "1945", "1946"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "Who was known as the 'Maid of Orléans'?",
+    "options": ["Cleopatra", "Joan of Arc", "Boudicca", "Marie Curie"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "Which empire built the Colosseum in Rome?",
+    "options": ["Greek Empire", "Roman Empire", "Persian Empire", "Ottoman Empire"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "The Great Wall is located in which country?",
+    "options": ["Japan", "China", "India", "Mongolia"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "Who was the first man to step on the Moon?",
+    "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "In which year did the Berlin Wall fall?",
+    "options": ["1987", "1988", "1989", "1990"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "Who was the leader of Nazi Germany during World War II?",
+    "options": ["Adolf Hitler", "Joseph Stalin", "Winston Churchill", "Franklin Roosevelt"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "Which city was the capital of the Roman Empire at its height?",
+    "options": ["Athens", "Rome", "Alexandria", "Constantinople"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "What was the name of the famous ship that sank in 1912 after hitting an iceberg?",
+    "options": ["Lusitania", "Titanic", "Britannic", "Olympic"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "In which modern country did the ancient Olympic Games originate?",
+    "options": ["Italy", "Greece", "France", "Turkey"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "Which explorer is often credited with 'discovering' America in 1492?",
+    "options": ["Ferdinand Magellan", "Christopher Columbus", "Vasco da Gama", "James Cook"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "Who was the first human to travel into space?",
+    "options": ["Neil Armstrong", "Yuri Gagarin", "Alan Shepard", "Valentina Tereshkova"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "The Great Fire of 1666 destroyed much of which city?",
+    "options": ["Paris", "London", "Rome", "Madrid"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "Which famous Indian leader promoted non-violent resistance against British rule?",
+    "options": ["Jawaharlal Nehru", "Subhas Chandra Bose", "Mahatma Gandhi", "B. R. Ambedkar"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "The pharaohs were rulers of which ancient civilisation?",
+    "options": ["Ancient Greece", "Ancient Rome", "Ancient Egypt", "Ancient China"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "Which currency was used in Germany before the euro?",
+    "options": ["Lira", "Franc", "Deutsche Mark", "Schilling"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "Which British Prime Minister led the UK during much of World War II?",
+    "options": ["Neville Chamberlain", "Winston Churchill", "Clement Attlee", "Harold Macmillan"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "The Berlin Wall separated which two parts of the same city?",
+    "options": ["North and South Berlin", "East and West Berlin", "Old and New Berlin", "Upper and Lower Berlin"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "In which country did the Renaissance begin?",
+    "options": ["France", "Germany", "Italy", "Spain"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "Samurai warriors were part of the history of which country?",
+    "options": ["China", "Japan", "Korea", "Vietnam"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "Who delivered the famous 'I Have a Dream' speech in 1963?",
+    "options": ["Malcolm X", "Martin Luther King Jr.", "Nelson Mandela", "John F. Kennedy"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 26,
+    "question": "Which event is often considered the start of World War I?",
+    "options": [
+      "The sinking of the Lusitania",
+      "The assassination of Archduke Franz Ferdinand",
+      "The invasion of Belgium",
+      "The Zimmermann Telegram"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "Which civilisation is credited with inventing cuneiform writing?",
+    "options": ["Egyptians", "Phoenicians", "Sumerians", "Minoans"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "Who became the first Emperor of a unified China in 221 BCE?",
+    "options": ["Han Wudi", "Qin Shi Huang", "Liu Bang", "Sun Yat-sen"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "The Magna Carta, signed in 1215, limited the power of which English king?",
+    "options": ["Henry II", "John", "Edward I", "Richard I"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "Which empire was ruled by Genghis Khan?",
+    "options": ["Ottoman Empire", "Byzantine Empire", "Mongol Empire", "Persian Empire"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "The 'Black Death' was a devastating pandemic of which disease?",
+    "options": ["Cholera", "Smallpox", "Bubonic plague", "Influenza"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "Which revolution began in 1789 and led to the fall of the French monarchy?",
+    "options": [
+      "Glorious Revolution",
+      "French Revolution",
+      "Russian Revolution",
+      "Industrial Revolution"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "Who was the first man to orbit the Earth?",
+    "options": ["Alan Shepard", "Yuri Gagarin", "John Glenn", "Gherman Titov"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "Which empire adopted Orthodox Christianity and used the Cyrillic alphabet in the city of Kiev?",
+    "options": ["Frankish Empire", "Aztec Empire", "Kievan Rus", "Mali Empire"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "Which ancient city was buried by the eruption of Mount Vesuvius in 79 CE?",
+    "options": ["Pompeii", "Athens", "Carthage", "Alexandria"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "Which conflict, lasting from 1950 to 1953, involved North and South parts of the same Asian country?",
+    "options": ["Vietnam War", "Korean War", "Sino-Japanese War", "Indochina War"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "In which year did the Russian Revolution that brought the Bolsheviks to power begin?",
+    "options": ["1905", "1914", "1917", "1922"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "question": "Which US president issued the Emancipation Proclamation in 1863?",
+    "options": ["Abraham Lincoln", "Andrew Johnson", "Ulysses S. Grant", "James Buchanan"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "The ancient city of Carthage was located in which modern-day country?",
+    "options": ["Tunisia", "Morocco", "Italy", "Greece"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "question": "Which crisis in 1962 brought the world close to nuclear war over missiles in the Caribbean?",
+    "options": [
+      "Berlin Crisis",
+      "Cuban Missile Crisis",
+      "Suez Crisis",
+      "Yom Kippur War"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "Who was the British Prime Minister at the start of World War II?",
+    "options": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Clement Attlee",
+      "Stanley Baldwin"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "Which empire used the road system known as the Royal Road to connect its territories?",
+    "options": ["Roman Empire", "Persian Empire", "Inca Empire", "Ottoman Empire"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "Which war, fought from 1914 to 1918, was originally known as the Great War?",
+    "options": ["World War I", "World War II", "Crimean War", "Boer War"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "Who was the first female Prime Minister of the United Kingdom?",
+    "options": [
+      "Theresa May",
+      "Margaret Thatcher",
+      "Indira Gandhi",
+      "Golda Meir"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "Which empire constructed the famous city of Machu Picchu?",
+    "options": ["Aztec", "Maya", "Inca", "Olmec"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "Who was the first democratically elected president of South Africa?",
+    "options": ["Nelson Mandela", "F.W. de Klerk", "Jacob Zuma", "Thabo Mbeki"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "Which famous document begins with the words 'We the People'?",
+    "options": [
+      "Magna Carta",
+      "US Declaration of Independence",
+      "US Constitution",
+      "Bill of Rights (UK)"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "Which Asian capital was formerly known as Edo?",
+    "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "Which European conflict from 1618 to 1648 involved many states and was partly religious?",
+    "options": [
+      "Hundred Years' War",
+      "Thirty Years' War",
+      "Seven Years' War",
+      "War of the Roses"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "Which North African city was a major centre of learning during the Islamic Golden Age?",
+    "options": ["Fez", "Cairo", "Baghdad", "Cordoba"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 51,
+    "question": "Who led the Haitian Revolution and later became a key figure in the early independence of Haiti?",
+    "options": [
+      "Toussaint Louverture",
+      "Simon Bolivar",
+      "Marcus Garvey",
+      "Jean-Jacques Dessalines"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and is often seen as the start of the modern state system?",
+    "options": [
+      "Treaty of Utrecht",
+      "Treaty of Westphalia",
+      "Treaty of Paris",
+      "Treaty of Vienna"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "question": "Which English king broke with the Catholic Church and established the Church of England?",
+    "options": ["Henry VII", "Henry VIII", "Edward VI", "James I"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "question": "The Meiji Restoration, beginning in 1868, transformed which country into a modern industrial state?",
+    "options": ["China", "Japan", "Korea", "Thailand"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 55,
+    "question": "Which Carthaginian general famously crossed the Alps with war elephants to fight Rome?",
+    "options": ["Scipio Africanus", "Hannibal Barca", "Marius", "Pompey"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "question": "The 'Long March' (1934–1935) was undertaken by members of which Chinese political movement?",
+    "options": [
+      "Nationalist Party (Kuomintang)",
+      "Chinese Communists",
+      "Warlord factions",
+      "Reformist liberals"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "question": "Which Chinese dynasty built much of the Great Wall that still stands today?",
+    "options": ["Qin", "Han", "Ming", "Tang"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "question": "Who wrote 'The Prince', a political treatise on power and statecraft?",
+    "options": ["Machiavelli", "Hobbes", "Rousseau", "Locke"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "question": "Which empire's capital was the city of Tenochtitlan, located where Mexico City stands today?",
+    "options": ["Inca Empire", "Aztec Empire", "Maya Empire", "Toltec Empire"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "Who was the first ruler to unify much of the Indian subcontinent under the Mauryan Empire in the 3rd century BCE?",
+    "options": ["Ashoka", "Chandragupta Maurya", "Akbar", "Shivaji"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "Which African empire, based in the city of Timbuktu, was famous for its wealth and learning under Mansa Musa?",
+    "options": ["Ghana Empire", "Mali Empire", "Songhai Empire", "Benin Kingdom"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "question": "Which agreement in 1957 founded the European Economic Community, a predecessor of the European Union?",
+    "options": [
+      "Treaty of Rome",
+      "Treaty of Lisbon",
+      "Treaty of Maastricht",
+      "Treaty of Nice"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "Which Mughal emperor commissioned the construction of the Taj Mahal?",
+    "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "question": "Who was the first Chancellor of the German Empire (Second Reich) under Kaiser Wilhelm I?",
+    "options": [
+      "Otto von Bismarck",
+      "Helmut Kohl",
+      "Konrad Adenauer",
+      "Friedrich Ebert"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "Which 19th-century conflict saw Britain fighting against Russia over influence in the Ottoman Empire, including the famous Charge of the Light Brigade?",
+    "options": [
+      "Crimean War",
+      "Boer War",
+      "Franco-Prussian War",
+      "Napoleonic Wars"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "Which American civil rights organisation did W.E.B. Du Bois help to found in 1909?",
+    "options": ["NAACP", "UNESCO", "OAU", "NATO"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "Which peace agreement in 1998 helped bring an end to the conflict in Northern Ireland?",
+    "options": [
+      "Good Friday Agreement",
+      "Camp David Accords",
+      "Oslo Accords",
+      "Dayton Agreement"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "Which dynasty ruled Russia from 1613 until the abdication of Tsar Nicholas II in 1917?",
+    "options": ["Romanov", "Habsburg", "Bourbon", "Hohenzollern"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "Who led the Soviet Union during the Cuban Missile Crisis?",
+    "options": ["Joseph Stalin", "Leonid Brezhnev", "Nikita Khrushchev", "Mikhail Gorbachev"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "Which empire's legal code is known as the Code of Hammurabi?",
+    "options": ["Babylonian Empire", "Assyrian Empire", "Hittite Empire", "Persian Empire"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "options": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bannockburn"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "Which ancient civilisation built the famous city-state of Sparta?",
+    "options": ["Romans", "Egyptians", "Greeks", "Persians"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "Which conflict from 1919 to 1921 resulted in the Anglo-Irish Treaty and the creation of the Irish Free State?",
+    "options": [
+      "Irish Civil War",
+      "Easter Rising",
+      "Irish War of Independence",
+      "Nine Years' War"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "Which leader introduced the policies of glasnost and perestroika in the Soviet Union?",
+    "options": ["Leonid Brezhnev", "Yuri Andropov", "Mikhail Gorbachev", "Boris Yeltsin"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "Which famous document, signed in 1215, is seen as a foundation of constitutional government in England?",
+    "options": [
+      "Bill of Rights",
+      "Domesday Book",
+      "Petition of Right",
+      "Magna Carta"
+    ],
+    "answerIndex": 3,
+    "difficulty": "hard"
+  }
+]

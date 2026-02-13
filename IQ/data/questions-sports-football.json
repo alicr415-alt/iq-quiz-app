@@ -1,0 +1,669 @@
+[
+  {
+    "id": 1,
+    "question": "How many players does a standard football team have on the pitch during a match?",
+    "options": ["9", "10", "11", "12"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "What is the name of the global football organisation that governs the World Cup?",
+    "options": ["UEFA", "CONMEBOL", "FIFA", "CAF"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "What is the maximum duration of a standard professional football match, excluding extra time?",
+    "options": ["60 minutes", "80 minutes", "90 minutes", "100 minutes"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Which part of the body is a goalkeeper NOT allowed to use outside their penalty area?",
+    "options": ["Head", "Chest", "Feet", "Hands"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "What is awarded to the opposing team when a player commits a foul inside their own penalty area?",
+    "options": ["Corner kick", "Free kick", "Penalty kick", "Throw-in"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "How many points does a team receive for a win in most league competitions?",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "What colour card does a referee show to send a player off the pitch?",
+    "options": ["Yellow", "Red", "Blue", "Green"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "What is it called when a player scores three goals in a single match?",
+    "options": ["Brace", "Triple", "Hat-trick", "Treble"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "Which position is mainly responsible for stopping the opposition from scoring?",
+    "options": ["Striker", "Goalkeeper", "Winger", "Playmaker"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "What shape is a standard football pitch?",
+    "options": ["Square", "Rectangle", "Circle", "Triangle"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "What is the minimum number of players a team must have on the pitch for the match to continue?",
+    "options": ["7", "8", "9", "10"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "Which part of the foot is commonly used for most long passes?",
+    "options": ["Heel", "Laces (top of foot)", "Toe", "Inside of foot"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "What must a ball completely cross for a goal to be awarded?",
+    "options": ["Penalty spot", "Goal line", "Centre circle", "Touchline"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "What is it called when the ball is kicked from the corner arc back into play?",
+    "options": ["Goal kick", "Free kick", "Corner kick", "Drop ball"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "Which official is responsible for timing the match and making final decisions?",
+    "options": ["Linesman", "Fourth official", "Referee", "Coach"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "Which part of the body is a player generally NOT allowed to use to touch the ball (except the goalkeeper in their area)?",
+    "options": ["Head", "Chest", "Knee", "Hand or arm"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "What is the name of the rest period between the two halves of a match?",
+    "options": ["Full time", "Extra time", "Half-time", "Time-out"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "How many assistant referees usually run along the touchlines in a professional match?",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "What is the term for the rule that stops attackers from waiting near the opponent's goal for a pass?",
+    "options": ["Offside", "Handball", "Back-pass", "Retreat line"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "What happens if both teams score the same number of goals in a league match?",
+    "options": ["One team wins by penalties", "The match is replayed", "It is a draw", "Extra time is always played"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "Which part of the pitch is marked by a semi-circle just outside the penalty area?",
+    "options": ["Centre circle", "D-arc", "Goal area", "Technical area"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "What is given to restart play when the ball crosses the touchline?",
+    "options": ["Goal kick", "Corner kick", "Drop ball", "Throw-in"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "What is the typical shape of the ball used in football?",
+    "options": ["Oval", "Cube", "Sphere", "Cylinder"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "Which players are usually responsible for scoring most of the goals?",
+    "options": ["Defenders", "Goalkeepers", "Strikers/forwards", "Referees"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "How many yellow cards equal a red card in the same match?",
+    "options": ["One", "Two", "Three", "Four"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 26,
+    "question": "In the offside rule, which part of the body is considered when judging an attacking player's position?",
+    "options": [
+      "Any part of head, body or feet that can legally play the ball",
+      "Only the feet",
+      "Only the head",
+      "Hands and arms"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "What is the maximum number of substitutions usually allowed for one team in many modern professional competitions (excluding extra allowances)?",
+    "options": ["2", "3", "5", "7"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "Which type of free kick allows a player to shoot directly at goal and score without another player touching the ball?",
+    "options": ["Indirect free kick", "Direct free kick", "Drop ball", "Goal kick"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "If a defender deliberately passes the ball back to their goalkeeper with their feet, what is the goalkeeper NOT allowed to do?",
+    "options": ["Control it with the chest", "Kick it first time", "Pick it up with hands", "Pass it to a teammate"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "What is the distance between the penalty spot and the goal line in a standard adult pitch?",
+    "options": ["8 yards (7.32 m)", "10 yards (9.15 m)", "12 yards (11 m)", "15 yards (13.7 m)"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "Which formation is commonly described as having four defenders, four midfielders and two forwards?",
+    "options": ["4-4-2", "3-5-2", "4-3-3", "5-3-2"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "What term is used when a player moves the ball past an opponent using skill to keep control?",
+    "options": ["Tackle", "Dribble", "Volley", "Chip"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "What is the minimum distance that the defensive wall must stand from the ball at a free kick?",
+    "options": ["5 yards (4.5 m)", "7 yards (6.4 m)", "9.15 yards (10 m)", "12 yards (11 m)"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "Which situation results in a corner kick being awarded?",
+    "options": [
+      "Ball crosses goal line after being last touched by attacker, no goal",
+      "Ball crosses goal line after being last touched by defender, no goal",
+      "Ball crosses touchline",
+      "Goalkeeper catches the ball"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "What is the main role of a defensive midfielder?",
+    "options": [
+      "Stay on the goal line to block shots",
+      "Create chances in the final third",
+      "Protect the defence and break up opposition attacks",
+      "Take throw-ins and corners"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "What does 'clean sheet' mean for a goalkeeper or team?",
+    "options": [
+      "No fouls committed",
+      "No offsides",
+      "No goals conceded",
+      "No yellow cards"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "Which term describes a shot struck before the ball hits the ground, usually from a pass or cross?",
+    "options": ["Volley", "Header", "Chip", "Backheel"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "question": "What is it called when a defender legally takes the ball away from an opponent using their feet?",
+    "options": ["Tackle", "Dribble", "Dive", "Nutmeg"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "Which part of the goal frame is counted as being 'in play' if the ball hits it?",
+    "options": ["Crossbar and posts", "Net only", "Ground only", "Corner flag"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "question": "What term is used when a player scores directly from a corner kick without any other player touching the ball?",
+    "options": ["Olympico", "Panenka", "Rabona", "Bicycle"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "Which area is also known as the 'six-yard box'?",
+    "options": ["Centre circle", "Penalty area", "Goal area", "Technical area"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "In a penalty shoot-out, what happens if the score is still level after each team has taken five kicks?",
+    "options": [
+      "The match is abandoned",
+      "They replay the game",
+      "Sudden-death penalties continue",
+      "Extra time is played"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "What do we call the curved run a player often makes to beat the offside line before receiving a through ball?",
+    "options": ["Overlap run", "Diagonal run", "Curved or arced run", "Blind-side run"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "What is the main purpose of a high defensive line?",
+    "options": [
+      "Invite pressure and defend deep",
+      "Push up the pitch to compress space and catch attackers offside",
+      "Protect the goalkeeper from crosses",
+      "Allow more long shots"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "When a team quickly wins the ball back immediately after losing it, this tactic is sometimes called what?",
+    "options": ["Counter-attack", "Gegenpressing", "Catenaccio", "Man-marking"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "What is the main difference between zonal marking and man-marking at set pieces?",
+    "options": [
+      "Zonal marks players, man-marking marks space",
+      "Zonal marks space, man-marking marks specific players",
+      "They are the same",
+      "Zonal is only for corners"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "What does 'added time' or 'stoppage time' represent at the end of each half?",
+    "options": [
+      "Time lost from substitutions, injuries and delays",
+      "Extra time for a draw",
+      "Time given for warm-ups",
+      "Break time for coaches"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "Which type of pass splits the defence to put an attacker through on goal?",
+    "options": ["Back pass", "Square pass", "Through ball", "Cross-field pass"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of the 'wall' formed by defenders at a free kick near the penalty area?",
+    "options": [
+      "Block passing lanes only",
+      "Distract the goalkeeper",
+      "Block the direct shot on goal",
+      "Confuse the referee"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "What is the main reason a referee might play advantage instead of stopping the game for a foul?",
+    "options": [
+      "To book a player later",
+      "To let the team that was fouled continue a more promising attack",
+      "To avoid showing cards",
+      "To reduce stoppage time"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 51,
+    "question": "Which tactical system is famously associated with very defensive, organised play and counter-attacking, particularly in Italian football history?",
+    "options": ["Total Football", "Gegenpressing", "Catenaccio", "Tiki-taka"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "question": "In advanced analysis, which term describes the probability of a shot resulting in a goal based on factors like distance and angle?",
+    "options": ["Expected assists (xA)", "Expected goals (xG)", "Pass completion rate", "Pressing intensity"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "question": "What is the main defensive risk of using an extremely high defensive line?",
+    "options": [
+      "More long-range shots conceded",
+      "More corners conceded",
+      "Increased vulnerability to balls played in behind and fast counter-attacks",
+      "Too many throw-ins"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "question": "In pressing systems, what is meant by 'trigger'?",
+    "options": [
+      "A type of foul",
+      "A pre-agreed cue such as a bad touch or backward pass that tells the team to start pressing",
+      "The signal to shoot from distance",
+      "The decision to change formation"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 55,
+    "question": "What is the main objective of 'overloading' one area of the pitch in possession?",
+    "options": [
+      "To tire out the referee",
+      "To create a numerical advantage and open space elsewhere",
+      "To guarantee an offside trap",
+      "To increase throw-ins"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "question": "Which analytical term describes defensive actions per minute of opposition possession in advanced stats?",
+    "options": ["xG", "PPDA (Passes Per Defensive Action)", "xA", "POPP"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "question": "What is a 'false nine' in tactical terms?",
+    "options": [
+      "A defender pretending to be a striker",
+      "A traditional target forward",
+      "A central forward who frequently drops into midfield to create overloads",
+      "A winger who plays on the opposite flank"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "question": "In modern analysis, what is 'progressive pass' usually defined as?",
+    "options": [
+      "Any sideways pass",
+      "Any pass in the defensive third",
+      "A pass that moves the ball significantly closer to the opponent's goal",
+      "Only long balls over 40 metres"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "question": "Which defensive strategy focuses on protecting the central areas of the pitch and forcing opponents wide?",
+    "options": [
+      "Man-marking the goalkeeper",
+      "Overlapping full-backs",
+      "Central compactness",
+      "All-out pressing"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "What is the main purpose of a 'double pivot' in midfield?",
+    "options": [
+      "Two players stand on the goal line",
+      "Two defensive midfielders share responsibility for build-up and defensive cover",
+      "Two strikers stay in the box",
+      "Two wingers swap sides constantly"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "Which concept in football analytics describes the value added by a player's actions to the likelihood of scoring or preventing goals?",
+    "options": ["Pass accuracy", "Plus-minus rating", "Possession value (PV/VAEP)", "Corner count"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "question": "What is the main tactical reason a full-back might invert into central midfield when the team is in possession?",
+    "options": [
+      "To mark the goalkeeper",
+      "To create central overloads and help in build-up play",
+      "To take more throw-ins",
+      "To stand offside"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "In advanced pressing schemes, what does 'pressing trap' mean?",
+    "options": [
+      "Leaving an opponent unmarked at set pieces",
+      "Inviting passes into a seemingly open player, then surrounding them with pressure",
+      "Marking all players 1v1",
+      "Ignoring the ball completely"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "question": "Which tactical idea aims for constant movement, position swapping and fluid roles, famously used by some Dutch teams?",
+    "options": ["Catenaccio", "Total Football", "Route One", "Park the bus"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "What is 'rest defence' in modern tactical language?",
+    "options": [
+      "Defending while resting players on the bench",
+      "How the team is positioned when attacking to be ready to stop counter-attacks",
+      "A low block inside the penalty area",
+      "Extra time defensive tactics"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "Which analysis concept tracks the zones from which a team takes most of its shots?",
+    "options": ["Heat map of shots", "Pass completion table", "Offside chart", "Throw-in map"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "In a build-up structure, what is a 'third-man run'?",
+    "options": [
+      "A run made by the ball carrier",
+      "A run made by a player who receives the ball directly from the passer",
+      "A run made by a teammate who receives a pass from the second player, bypassing the first opponent",
+      "A run to the corner flag"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "What is the main defensive weakness of a very narrow, compact block?",
+    "options": [
+      "Too many central overloads",
+      "Vulnerability to wide switches of play and crosses",
+      "Too many offsides",
+      "Inability to counter-attack"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "Which term describes a pass that breaks multiple opposition lines at once, often from deep in defence?",
+    "options": ["Back pass", "Vertical line-breaking pass", "Sideways pass", "Square pass"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "What is the main purpose of rotating positions between midfielders and full-backs during possession?",
+    "options": [
+      "Confuse teammates",
+      "Avoid offside traps",
+      "Disorganise the opposition's marking and create passing lanes",
+      "Increase throw-ins"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "question": "In set-piece analysis, what is a 'routine'?",
+    "options": [
+      "A random cross",
+      "Any corner taken quickly",
+      "A pre-planned sequence of movements and passes designed to create a chance",
+      "A type of free kick only near the halfway line"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "What is the goal of 'counter-pressing' (pressing immediately after losing possession)?",
+    "options": [
+      "Drop deep and rest",
+      "Immediately attempt to win the ball back before the opponent can counter-attack",
+      "Waste time",
+      "Force more throw-ins"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "Which defending concept focuses on forcing the opponent to play towards the touchline where space is limited?",
+    "options": [
+      "Centre funneling",
+      "Wide pressing trap",
+      "Half-space overload",
+      "Zonal offside"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "In tactical diagrams, what is meant by 'half-space'?",
+    "options": [
+      "The area inside the six-yard box",
+      "The wide area near the touchline",
+      "The vertical channel between the central and wide areas",
+      "The space behind the goalkeeper"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "What is the main aim of 'positional play' (juego de posición) in possession-based football?",
+    "options": [
+      "Random player movement to confuse everyone",
+      "Always crossing from wide areas",
+      "Occupying optimal zones to create superiorities and passing options between the lines",
+      "Shooting only from long distance"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  }
+]

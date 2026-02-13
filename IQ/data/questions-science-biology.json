@@ -1,0 +1,539 @@
+[
+  {
+    "id": 1,
+    "question": "What is the basic unit of life in all living organisms?",
+    "options": ["Atom", "Molecule", "Cell", "Organ"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Which gas do plants mainly take in from the air for photosynthesis?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Which pigment gives plants their green colour?",
+    "options": ["Melanin", "Chlorophyll", "Hemoglobin", "Keratin"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Which organ in the human body pumps blood?",
+    "options": ["Liver", "Brain", "Heart", "Kidney"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "What do we call an animal that eats only plants?",
+    "options": ["Carnivore", "Omnivore", "Herbivore", "Detritivore"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "Which organ is mainly responsible for breathing in humans?",
+    "options": ["Heart", "Lungs", "Stomach", "Liver"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "Where in a plant cell does photosynthesis mainly take place?",
+    "options": ["Nucleus", "Mitochondria", "Chloroplasts", "Vacuole"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "Which part of the body is responsible for thinking and coordination?",
+    "options": ["Liver", "Brain", "Lungs", "Kidneys"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "What is the main function of red blood cells?",
+    "options": ["Fight infections", "Carry oxygen", "Digest food", "Produce hormones"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "What is the name for the process by which plants lose water vapour through their leaves?",
+    "options": ["Transpiration", "Respiration", "Translocation", "Condensation"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "Which kingdom do mushrooms and yeast belong to?",
+    "options": ["Plants", "Animals", "Fungi", "Protists"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "Which organ helps to filter waste products from the blood to form urine?",
+    "options": ["Lungs", "Kidneys", "Heart", "Pancreas"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "What is the name of the tough, flexible tissue that cushions joints?",
+    "options": ["Bone", "Cartilage", "Muscle", "Tendon"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "Which part of the eye controls the amount of light entering it?",
+    "options": ["Lens", "Retina", "Iris", "Cornea"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "What kind of biomolecules are enzymes?",
+    "options": ["Carbohydrates", "Proteins", "Lipids", "Nucleic acids"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "What is the name for animals that maintain a constant body temperature?",
+    "options": ["Cold-blooded", "Warm-blooded", "Invertebrates", "Amphibians"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "Which organ in the human body produces insulin?",
+    "options": ["Liver", "Pancreas", "Stomach", "Kidney"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "DNA mainly carries information for which biological feature?",
+    "options": ["Movement", "Digestion", "Inherited traits", "Respiration"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "Which structure connects muscles to bones?",
+    "options": ["Ligaments", "Cartilage", "Tendons", "Nerves"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "Which blood vessels carry blood away from the heart?",
+    "options": ["Veins", "Capillaries", "Arteries", "Lymph vessels"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "What is the term for the change in a species over very long periods of time?",
+    "options": ["Respiration", "Evolution", "Transpiration", "Metabolism"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "Which organ is responsible for storing bile?",
+    "options": ["Liver", "Gallbladder", "Pancreas", "Stomach"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "What is the main function of white blood cells?",
+    "options": ["Carry oxygen", "Clot the blood", "Fight infections", "Digest fats"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "What do we call a group of similar cells that work together to perform a function?",
+    "options": ["Organ", "Tissue", "Organ system", "Organism"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "Which process do living cells use to release energy from food?",
+    "options": ["Photosynthesis", "Respiration", "Transpiration", "Fermentation"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 26,
+    "question": "Which organelle is known as the 'powerhouse of the cell' because it produces most of the cell's ATP?",
+    "options": ["Nucleus", "Mitochondrion", "Ribosome", "Golgi apparatus"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "What is the term for the movement of water molecules from a region of high water concentration to low water concentration through a partially permeable membrane?",
+    "options": ["Diffusion", "Osmosis", "Active transport", "Filtration"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "Which blood component is primarily responsible for forming clots?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma proteins"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "What do we call the physical appearance or observable traits of an organism?",
+    "options": ["Genotype", "Phenotype", "Allele", "Locus"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "Which part of the neuron carries nerve impulses away from the cell body?",
+    "options": ["Dendrite", "Axon", "Synapse", "Cell membrane"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "What is the main function of villi in the small intestine?",
+    "options": ["Produce enzymes", "Store bile", "Increase surface area for absorption", "Secrete hormones"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "In genetics, what term describes an allele that is expressed only when two copies are present?",
+    "options": ["Dominant", "Recessive", "Co-dominant", "Linked"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "Which gas is mainly produced as a waste product of aerobic respiration?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "Which part of the plant is mainly responsible for absorbing water and mineral salts?",
+    "options": ["Leaves", "Roots", "Flowers", "Fruit"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "What is the term for a close, long-term relationship between two different species?",
+    "options": ["Competition", "Symbiosis", "Predation", "Parasitism"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "Which biological molecule is primarily responsible for carrying genetic information in most organisms?",
+    "options": ["Protein", "Lipid", "DNA", "Starch"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "Which part of the human brain is mainly responsible for balance and coordination?",
+    "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "question": "Which structure in plant cells contains cell sap and helps maintain turgor pressure?",
+    "options": ["Nucleus", "Chloroplast", "Central vacuole", "Cell wall"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "What is the name given to the variety of different species living in a particular area?",
+    "options": ["Biomass", "Biodiversity", "Population", "Ecosystem"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "question": "Which two systems work closely together to deliver oxygen to body cells and remove carbon dioxide?",
+    "options": [
+      "Digestive and excretory",
+      "Respiratory and circulatory",
+      "Nervous and endocrine",
+      "Skeletal and muscular"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "In food chains, what name is given to organisms that make their own food using sunlight or chemical energy?",
+    "options": ["Consumers", "Decomposers", "Producers", "Predators"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "Which structure anchors a plant and allows uptake of water and nutrients from the soil?",
+    "options": ["Flower", "Stem", "Root system", "Leaf blade"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "What is the term for the maintenance of a stable internal environment in an organism?",
+    "options": ["Metabolism", "Homeostasis", "Adaptation", "Osmoregulation"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "Which type of joint allows movement in all directions, such as the shoulder?",
+    "options": ["Hinge joint", "Ball-and-socket joint", "Gliding joint", "Fixed joint"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "What is the name of the tube that carries food from the mouth to the stomach?",
+    "options": ["Trachea", "Oesophagus", "Bronchus", "Duodenum"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "Which type of blood vessel has thin walls and allows exchange of materials with body tissues?",
+    "options": ["Arteries", "Veins", "Capillaries", "Lymph vessels"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "What term describes organisms that can tolerate only a narrow range of environmental conditions?",
+    "options": ["Generalists", "Specialists", "Producers", "Decomposers"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "Which structure in a cell controls the passage of substances into and out of the cell?",
+    "options": ["Cytoplasm", "Cell wall", "Cell membrane", "Nucleolus"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "Which type of respiration occurs without oxygen and produces lactic acid in muscle cells?",
+    "options": ["Aerobic respiration", "Anaerobic respiration", "Photosynthesis", "Transpiration"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "What do we call the thread-like structures in the nucleus that carry genes?",
+    "options": ["Chromosomes", "Ribosomes", "Mitochondria", "Vacuoles"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 51,
+    "question": "Which process describes the formation of sex cells with half the normal number of chromosomes?",
+    "options": ["Mitosis", "Meiosis", "Fertilisation", "Binary fission"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "question": "What term is used for different forms of the same gene that may produce different traits?",
+    "options": ["Loci", "Chromatids", "Alleles", "Genomes"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "question": "Which part of a chloroplast contains the chlorophyll and is the site of the light-dependent reactions of photosynthesis?",
+    "options": ["Stroma", "Thylakoid membranes", "Matrix", "Cell wall"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "question": "In genetics, what does 'homozygous' mean?",
+    "options": [
+      "Having two identical alleles for a gene",
+      "Having two different alleles for a gene",
+      "Having only one allele",
+      "Having no alleles"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 55,
+    "question": "Which hormone is primarily responsible for regulating blood glucose levels by lowering them?",
+    "options": ["Glucagon", "Insulin", "Adrenaline", "Thyroxine"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "question": "What name is given to the functional unit of the kidney that filters blood and forms urine?",
+    "options": ["Alveolus", "Nephron", "Neuron", "Sarcomere"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "question": "Which process describes the movement of molecules across a cell membrane against their concentration gradient using energy?",
+    "options": ["Diffusion", "Osmosis", "Active transport", "Facilitated diffusion"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "question": "What is the name of the region on an enzyme where the substrate binds?",
+    "options": ["Active site", "Allosteric site", "Binding groove", "Regulatory site"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "question": "Which type of ecological interaction benefits one organism while harming the other?",
+    "options": ["Mutualism", "Commensalism", "Parasitism", "Neutralism"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "Which organelle is responsible for packaging and modifying proteins for secretion or use in the cell?",
+    "options": ["Endoplasmic reticulum", "Golgi apparatus", "Lysosome", "Centrosome"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "What is the term for the total of all the chemical reactions that occur in an organism?",
+    "options": ["Homeostasis", "Metabolism", "Catabolism", "Anabolism"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "question": "Which part of the nervous system controls involuntary actions such as heart rate and digestion?",
+    "options": ["Somatic nervous system", "Autonomic nervous system", "Central nervous system", "Peripheral nervous system"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "What is the primary nitrogenous waste excreted by humans?",
+    "options": ["Ammonia", "Urea", "Uric acid", "Creatinine"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "question": "Which molecule carries amino acids to the ribosome during protein synthesis?",
+    "options": ["mRNA", "tRNA", "rRNA", "DNA"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "What is the term for a group of individuals of the same species living in a particular area at the same time?",
+    "options": ["Community", "Ecosystem", "Population", "Biome"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "Which phase of mitosis involves the chromosomes lining up along the equator of the cell?",
+    "options": ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "In a food chain, which level is usually occupied by organisms that feed directly on primary consumers?",
+    "options": ["Producers", "Primary consumers", "Secondary consumers", "Decomposers"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "Which type of mutation involves the insertion or deletion of a base that changes the reading frame of the genetic code?",
+    "options": ["Silent mutation", "Missense mutation", "Nonsense mutation", "Frameshift mutation"],
+    "answerIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "What is the term for an organism's role in its environment, including its habitat and interactions with other organisms?",
+    "options": ["Habitat", "Niche", "Territory", "Range"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "Which part of a flower develops into a fruit after fertilisation?",
+    "options": ["Stamen", "Petal", "Ovary", "Sepal"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "question": "Which theory explains how eukaryotic cells may have evolved from prokaryotic cells through symbiotic relationships?",
+    "options": ["Cell theory", "Endosymbiotic theory", "Germ theory", "Gene theory"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "What is the term for programmed cell death, an important process in development and disease prevention?",
+    "options": ["Necrosis", "Apoptosis", "Autolysis", "Lysis"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "Which group of plants produces seeds in cones rather than flowers?",
+    "options": ["Angiosperms", "Gymnosperms", "Bryophytes", "Pteridophytes"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "Which part of the immune system produces antibodies?",
+    "options": ["Red blood cells", "Platelets", "B lymphocytes (B cells)", "T lymphocytes (T cells)"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "What is the term for the process by which green plants, algae and some bacteria use sunlight to build organic molecules from carbon dioxide and water?",
+    "options": ["Respiration", "Fermentation", "Photosynthesis", "Chemosynthesis"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  }
+]

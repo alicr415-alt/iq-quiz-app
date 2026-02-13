@@ -1,0 +1,574 @@
+[
+  {
+    "id": 1,
+    "question": "What is the common name for the force that pulls objects toward the Earth?",
+    "options": ["Magnetism", "Friction", "Gravity", "Electricity"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Which unit is used to measure electric current?",
+    "options": ["Volt", "Ohm", "Ampere", "Watt"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "What is the speed of light in a vacuum approximately?",
+    "options": ["3,000 m/s", "30,000 m/s", "300,000 km/s", "3,000 km/s"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Which device is used to measure temperature?",
+    "options": ["Barometer", "Thermometer", "Voltmeter", "Ammeter"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Newton", "Pascal", "Watt"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "Which form of energy is stored in a stretched spring?",
+    "options": ["Kinetic energy", "Chemical energy", "Elastic potential energy", "Thermal energy"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "What is the term for materials that do not allow electricity to flow easily?",
+    "options": ["Conductors", "Insulators", "Semiconductors", "Magnets"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following travels fastest in a vacuum?",
+    "options": ["Sound", "Light", "Water waves", "Seismic waves"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "What does a barometer measure?",
+    "options": ["Pressure", "Temperature", "Speed", "Electric current"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "Which physical quantity is measured in Joules?",
+    "options": ["Energy", "Force", "Power", "Pressure"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "What happens to the speed of sound when it travels through solids compared to gases?",
+    "options": ["It becomes slower", "It becomes faster", "It stays the same", "It stops completely"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "Which type of lens is thinner at the centre than at the edges?",
+    "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Fresnel lens"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "Which of these is an example of a renewable energy source?",
+    "options": ["Coal", "Oil", "Wind", "Natural gas"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "What is the SI unit of power?",
+    "options": ["Joule", "Watt", "Newton", "Ampere"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "Which law states that 'for every action there is an equal and opposite reaction'?",
+    "options": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Hooke's Law"
+    ],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "Which subatomic particle carries a negative electric charge?",
+    "options": ["Proton", "Neutron", "Electron", "Positron"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "Which quantity is measured in metres per second (m/s)?",
+    "options": ["Force", "Speed", "Energy", "Power"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "What type of energy is associated with motion?",
+    "options": ["Potential energy", "Kinetic energy", "Thermal energy", "Nuclear energy"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "Which colour of visible light has the shortest wavelength?",
+    "options": ["Red", "Yellow", "Green", "Violet"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "What phenomenon causes a pencil in a glass of water to appear bent?",
+    "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "Which scientist proposed the three laws of motion?",
+    "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Niels Bohr"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "What is the main energy conversion in a hydroelectric power station?",
+    "options": ["Chemical to electrical", "Nuclear to electrical", "Gravitational potential to electrical", "Thermal to electrical"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "Which device is used to view distant objects using lenses or mirrors?",
+    "options": ["Microscope", "Periscope", "Telescope", "Barometer"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "Which of these is a unit of frequency?",
+    "options": ["Hertz", "Pascal", "Tesla", "Coulomb"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "What happens to most metals when they are heated?",
+    "options": ["They contract", "They expand", "They become weightless", "They stop conducting electricity"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 26,
+    "question": "Which law relates voltage, current and resistance in an electrical circuit?",
+    "options": ["Hooke's Law", "Ohm's Law", "Faraday's Law", "Coulomb's Law"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "What is the SI unit of electric charge?",
+    "options": ["Coulomb", "Volt", "Ohm", "Tesla"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "Which physical quantity is defined as mass divided by volume?",
+    "options": ["Pressure", "Density", "Work", "Power"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "In which type of wave do particles of the medium vibrate parallel to the direction of energy transfer?",
+    "options": ["Transverse wave", "Longitudinal wave", "Standing wave", "Surface wave"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "What is the acceleration due to gravity on the Earth's surface approximately?",
+    "options": ["1 m/s²", "3.8 m/s²", "9.8 m/s²", "15 m/s²"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "Which law describes the relationship between the extension of a spring and the force applied?",
+    "options": ["Boyle's Law", "Hooke's Law", "Ohm's Law", "Kepler's Law"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "What is the term for the rate of doing work?",
+    "options": ["Energy", "Force", "Power", "Momentum"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "Which quantity is conserved in all collisions, provided no external forces act?",
+    "options": ["Momentum", "Power", "Temperature", "Charge"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "What is the main reason we see lightning before we hear thunder?",
+    "options": ["Lightning is hotter than thunder", "Sound travels faster than light", "Light travels faster than sound", "Thunder is absorbed by clouds"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "Which process causes light to bend when it passes from air into water?",
+    "options": ["Reflection", "Refraction", "Diffraction", "Polarisation"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "What is the term for the product of mass and velocity?",
+    "options": ["Work", "Energy", "Momentum", "Impulse"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "Which device transforms electrical energy into mechanical energy in most household appliances?",
+    "options": ["Generator", "Motor", "Transformer", "Rectifier"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "question": "If the current through a resistor is doubled while the resistance remains constant, what happens to the voltage across it?",
+    "options": ["Halves", "Doubles", "Stays the same", "Becomes zero"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "Which phenomenon explains why stars appear to twinkle when viewed from Earth?",
+    "options": ["Reflection", "Refraction in the atmosphere", "Diffraction", "Relativity"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "question": "What is the name given to the lowest temperature theoretically possible, where particles have minimal energy?",
+    "options": ["Absolute zero", "Freezing point", "Boiling point", "Critical temperature"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "Which of these is a scalar quantity?",
+    "options": ["Velocity", "Displacement", "Force", "Speed"],
+    "answerIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "What happens to the pressure of a fixed mass of gas if its temperature increases and volume stays constant?",
+    "options": ["Pressure decreases", "Pressure stays the same", "Pressure increases", "Gas disappears"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "Which subatomic particles are found in the nucleus of an atom?",
+    "options": ["Protons and electrons", "Neutrons and electrons", "Protons and neutrons", "Electrons only"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "Which phenomenon explains the spreading out of waves when they pass through a narrow gap?",
+    "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "Which law of motion explains why passengers are pushed backwards when a car accelerates suddenly?",
+    "options": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Archimedes' Principle"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "What does the slope of a distance–time graph represent?",
+    "options": ["Acceleration", "Speed", "Force", "Power"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "Which type of electromagnetic radiation has a longer wavelength than visible light?",
+    "options": ["Ultraviolet", "X-rays", "Infrared", "Gamma rays"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "What quantity is measured in Pascals (Pa)?",
+    "options": ["Force", "Energy", "Pressure", "Power"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "Which effect causes a change in the apparent frequency of a sound as the source moves relative to an observer?",
+    "options": ["Photoelectric effect", "Doppler effect", "Compton effect", "Seebeck effect"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "What happens to the kinetic energy of an object if its speed is doubled (ignoring other changes)?",
+    "options": ["It stays the same", "It doubles", "It becomes four times larger", "It halves"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 51,
+    "question": "According to Einstein's famous equation E = mc², what does 'c' represent?",
+    "options": ["Speed of sound", "Speed of light in vacuum", "Charge of an electron", "Specific heat"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "question": "Which principle states that it is impossible to know both the exact position and exact momentum of a particle at the same time?",
+    "options": [
+      "Pauli Exclusion Principle",
+      "Heisenberg Uncertainty Principle",
+      "Bernoulli's Principle",
+      "Superposition Principle"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "question": "Which law of electromagnetism states that a changing magnetic field induces an electromotive force (emf)?",
+    "options": ["Coulomb's Law", "Faraday's Law", "Gauss's Law", "Ampère's Law"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "question": "What is the name given to the lowest energy state of an atom or system?",
+    "options": ["Excited state", "Ground state", "Meta-stable state", "Ionised state"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 55,
+    "question": "Which fundamental force is responsible for holding the nucleus of an atom together?",
+    "options": [
+      "Electromagnetic force",
+      "Gravitational force",
+      "Strong nuclear force",
+      "Weak nuclear force"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "question": "In quantum physics, which term describes the wave-like behaviour of particles such as electrons?",
+    "options": ["Duality", "Relativity", "Quantisation", "Tunnelling"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "question": "Which scientist developed the special theory of relativity?",
+    "options": ["Max Planck", "Niels Bohr", "Albert Einstein", "Werner Heisenberg"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "question": "What is the term for the phenomenon where a wave changes direction when it passes from one medium into another with different refractive index at an angle?",
+    "options": ["Reflection", "Refraction", "Total internal reflection", "Interference"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "question": "What is the name given to electromagnetic radiation emitted by a black body in thermal equilibrium?",
+    "options": ["Cosmic rays", "Blackbody radiation", "Cherenkov radiation", "Synchrotron radiation"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "Which equation describes the relationship between the pressure and volume of an ideal gas at constant temperature?",
+    "options": [
+      "PV = nRT",
+      "P ∝ 1/V",
+      "P ∝ T",
+      "V ∝ T"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "Which effect demonstrates that light can eject electrons from a metal surface, supporting the particle nature of light?",
+    "options": ["Doppler effect", "Photoelectric effect", "Zeeman effect", "Compton effect"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "question": "What is the term for the frequency at which a system naturally oscillates when not subjected to a continuous external force?",
+    "options": ["Resonant frequency", "Carrier frequency", "Cut-off frequency", "Critical frequency"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "Which quantum number is associated with the shape of an atomic orbital?",
+    "options": [
+      "Principal quantum number (n)",
+      "Azimuthal quantum number (l)",
+      "Magnetic quantum number (m)",
+      "Spin quantum number (s)"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "question": "According to Bohr's model, why do electrons not spiral into the nucleus?",
+    "options": [
+      "Electrons are stationary",
+      "Electrons exist only in certain allowed orbits with quantised energies",
+      "The nucleus repels electrons",
+      "Electric charge is zero in the atom"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "What is the term for a hypothetical particle that mediates the gravitational force in some quantum gravity theories?",
+    "options": ["Photon", "Gluon", "Graviton", "W boson"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "Which phenomenon explains the bending of light around the edge of an obstacle or through a small aperture?",
+    "options": ["Interference", "Diffraction", "Polarisation", "Refraction"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "Which law of thermodynamics states that energy cannot be created or destroyed, only transformed?",
+    "options": [
+      "Zeroth law of thermodynamics",
+      "First law of thermodynamics",
+      "Second law of thermodynamics",
+      "Third law of thermodynamics"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "What is the term used when an atomic nucleus splits into two or more smaller nuclei, releasing energy?",
+    "options": ["Fusion", "Fission", "Ionisation", "Annihilation"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "In special relativity, which quantity remains invariant (the same) in all inertial frames of reference?",
+    "options": ["Time", "Length", "Speed of light", "Mass"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "Which equation connects the energy of a photon with its frequency?",
+    "options": ["E = mc²", "E = hf", "E = ½mv²", "E = qV"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "question": "What is the name of the phenomenon where waves overlapping in space can add together or cancel each other out?",
+    "options": ["Diffraction", "Interference", "Polarisation", "Dispersion"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "Which type of particle is responsible for mediating the electromagnetic force in quantum field theory?",
+    "options": ["Proton", "Photon", "Neutron", "Gluon"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "Which thermodynamic quantity measures the disorder or randomness in a system?",
+    "options": ["Enthalpy", "Entropy", "Internal energy", "Gibbs free energy"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "What is the term for the spontaneous random motion of particles suspended in a fluid, first observed under a microscope?",
+    "options": ["Brownian motion", "Simple harmonic motion", "Turbulent flow", "Convection"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "Which famous experiment used a beam of electrons and a crystal to demonstrate the wave nature of matter?",
+    "options": [
+      "Michelson–Morley experiment",
+      "Double-slit experiment",
+      "Davisson–Germer experiment",
+      "Millikan oil-drop experiment"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  }
+]

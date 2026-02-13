@@ -1,0 +1,694 @@
+[
+  {
+    "id": 1,
+    "question": "How many players are there in one cricket team on the field at the start of a match?",
+    "options": ["9", "10", "11", "12"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "What is the name of the player who bowls the ball in cricket?",
+    "options": ["Batsman", "Bowler", "Wicket-keeper", "Fielder"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "How many stumps are used to make a wicket?",
+    "options": ["2", "3", "4", "5"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "How many runs are scored if the ball is hit along the ground and crosses the boundary?",
+    "options": ["2", "3", "4", "6"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "How many runs are scored if the ball is hit over the boundary without touching the ground?",
+    "options": ["4", "5", "6", "8"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "What is the name of the player who stands behind the stumps to catch the ball?",
+    "options": ["Slip fielder", "Short leg", "Wicket-keeper", "Mid-on"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "How many umpires are usually on the field in an international cricket match?",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "What is it called when a bowler dismisses three batsmen with three consecutive balls?",
+    "options": ["Hat-trick", "Triple", "Powerplay", "Maiden"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "What is the central strip of the field called where the bowler runs and the batsman stands?",
+    "options": ["Track", "Pitch", "Crease", "Lane"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "What is a score of 100 runs by a batsman in a single innings called?",
+    "options": ["Fifty", "Century", "Double", "Over"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "How many legal balls are there in a standard over?",
+    "options": ["4", "5", "6", "8"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "What is it called when a bowler delivers six balls in which no runs are scored off the bat and no extras are given?",
+    "options": ["Dead over", "Maiden over", "Powerplay over", "Free over"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "Which side of the field is generally called the 'off side' for a right-handed batsman?",
+    "options": ["To the right of the batsman", "To the left of the batsman", "Behind the bowler", "Behind the wicket-keeper"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "What does LBW stand for?",
+    "options": ["Leg by wicket", "Leg before wicket", "Leg behind wicket", "Line before wicket"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "Which result occurs if both teams score exactly the same number of runs in a limited-overs match and no tie-break is used?",
+    "options": ["Win", "Loss", "Draw", "Tie"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "What is the name for the first six overs in a One Day International innings when only a limited number of fielders are allowed outside the circle?",
+    "options": ["Super over", "Powerplay", "Death overs", "Middle overs"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "What is the protective gear worn on a batsman’s legs called?",
+    "options": ["Gloves", "Pads", "Helmet", "Guard"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "What happens if the ball is bowled and hits the stumps but the bails do not fall off?",
+    "options": ["Batsman is out", "No ball", "Dead ball", "Batsman is not out"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "What is it called when play is stopped because of rain or bad light?",
+    "options": ["Timeout", "Injury break", "Weather delay", "Interval"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "What is the name given to a batsman who comes in later in the batting order, usually to bowl more than bat?",
+    "options": ["Finisher", "Nightwatchman", "Tail-ender", "Opener"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "What is the term for a batsman being dismissed without scoring any runs?",
+    "options": ["Duck", "Goose", "Zero out", "Clean out"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "What do we call the short break between innings in a limited-overs match?",
+    "options": ["Tea break", "Lunch break", "Innings break", "Timeout"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "Which piece of equipment is used by the umpire to count balls in an over?",
+    "options": ["Bat", "Ball counter or clicker", "Helmet", "Marker cone"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "Which direction is a 'square cut' usually played?",
+    "options": ["Straight down the ground", "Behind the wicket on leg side", "Square on the off side", "Fine leg"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "Which dismissal occurs if the wicket-keeper removes the bails while the batsman is out of his crease after missing the ball?",
+    "options": ["Run out", "Stumped", "Hit wicket", "Handled the ball"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 26,
+    "question": "What does the term 'economy rate' measure for a bowler?",
+    "options": [
+      "Runs scored per over by the team",
+      "Wickets taken per over",
+      "Runs conceded per over",
+      "Balls bowled per wicket"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "Which type of bowler primarily relies on speed and bounce?",
+    "options": ["Spinner", "Fast bowler", "Medium-pacer", "Part-time bowler"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "What term describes a ball that bounces very little and reaches the batsman at a lower height than expected?",
+    "options": ["Bouncer", "Yorker", "Full toss", "Shooter"],
+    "answerIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "What is a 'yorker'?",
+    "options": [
+      "A very short ball near the batsman's head",
+      "A full-length delivery aimed at the batsman's feet or base of the stumps",
+      "A slower ball",
+      "A wide delivery down the leg side"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "What is 'strike rate' for a batsman usually defined as in limited-overs cricket?",
+    "options": [
+      "Runs per over",
+      "Runs per hundred balls faced",
+      "Balls per wicket",
+      "Overs per boundary"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "In which dismissal can a batsman be out even if the ball does not touch their bat?",
+    "options": ["Bowled", "Caught", "LBW", "Hit wicket"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "What name is given to the fielder positioned close to the batsman on the off side, usually to catch edges off the bat?",
+    "options": ["Gully", "Fine leg", "Mid-on", "Long-off"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "Which side of the wicket is called the 'leg side' for a right-handed batsman?",
+    "options": [
+      "To the right of the batsman",
+      "To the left of the batsman",
+      "Behind the bowler",
+      "Behind the wicket-keeper"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "What does a 'dot ball' mean?",
+    "options": ["A ball that hits the stumps", "A ball on which no run is scored", "A wide ball", "A no-ball"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "What is the maximum number of bouncers allowed per over in many limited-overs formats (as per common playing conditions)?",
+    "options": ["None", "One", "Two", "Three"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "What does 'DLS method' stand for, used to adjust scores in rain-affected matches?",
+    "options": [
+      "Duckworth–Lewis–Stern method",
+      "Duckworth–Lee–Smith method",
+      "Dynamic Line Score method",
+      "Daily Limited Score method"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "Which term describes bowling with a spinning action to turn the ball off the pitch?",
+    "options": ["Swing bowling", "Spin bowling", "Seam bowling", "Knuckle ball"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "question": "What does a captain usually do after winning the toss before the match?",
+    "options": [
+      "Choose batting or fielding first",
+      "Choose the ball colour",
+      "Choose the umpire",
+      "Choose the boundary size"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "What do we call a ball that is judged by the umpire to be too wide for the batsman to hit in a normal stance?",
+    "options": ["No-ball", "Wide", "Dead ball", "Dot ball"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "question": "Which type of delivery is deliberately bowled slower than the bowler’s usual pace to deceive the batsman?",
+    "options": ["Bouncer", "Slower ball", "Yorker", "Full toss"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "Which dismissal can only occur at the non-striker’s end while the bowler is in his delivery stride (according to the Laws and playing conditions)?",
+    "options": ["Run out", "Mankad (run out backing up)", "Hit wicket", "Obstructing the field"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "What is the role of the 'third umpire' in international cricket?",
+    "options": [
+      "Standing at square leg",
+      "Coaching the team",
+      "Using video replays to assist with close decisions",
+      "Marking the pitch"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "Which statistic describes the average number of runs scored per wicket by a batsman?",
+    "options": ["Strike rate", "Batting average", "Economy rate", "Net run rate"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "What is a 'follow-on' in multi-day cricket (like Test cricket)?",
+    "options": [
+      "When both teams bat twice",
+      "When the second team to bat is forced to bat again immediately after their first innings because they are far behind",
+      "When the same batsman bats again",
+      "When a team chooses to chase the target"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "What term is used when a batsman is out because the ball has hit their stumps due to their own bat or body?",
+    "options": ["Bowled", "Hit wicket", "Run out", "Timed out"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "Which side of the bat is usually used for most shots?",
+    "options": ["Top edge", "Toe", "Face", "Handle"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "Which fielding position is located behind the batsman on the off side, close to the wicket-keeper?",
+    "options": ["Fine leg", "Slip", "Mid-off", "Square leg"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "What does 'Net Run Rate' (NRR) roughly measure in tournaments?",
+    "options": [
+      "Total runs scored",
+      "Average wickets taken",
+      "Rate of scoring and conceding runs across matches",
+      "Number of boundaries hit"
+    ],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "Which term describes a bowler changing the side of the wicket they bowl from (over or around the wicket)?",
+    "options": ["Switch bowling", "Change of end", "Change of angle", "Reverse swing"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "What is the main tactical reason to bowl tight lines just outside the off stump in limited-overs cricket?",
+    "options": [
+      "Force batsman to hit on leg side only",
+      "Encourage risky shots square and behind on the off side",
+      "Concede more wides",
+      "Avoid swing"
+    ],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 51,
+    "question": "In advanced analytics, what does 'expected wickets' (xW) typically estimate?",
+    "options": [
+      "How many wickets a bowler actually took",
+      "How many wickets a bowler might be expected to take based on the quality of their deliveries",
+      "How many wickets the team needs to win",
+      "How many wickets a batsman will lose"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "question": "What is the main tactical benefit of setting an attacking field with catches close to the bat early in a new ball spell?",
+    "options": [
+      "Reduce boundaries behind square",
+      "Create pressure for edges and early wickets while the ball is new and moving",
+      "Save singles in the deep",
+      "Avoid wides"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "question": "Which type of spin delivery from a right-arm off-spinner typically turns from the off side to the leg side for a right-handed batsman?",
+    "options": ["Off-break", "Leg-break", "Googly", "Carrom ball"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "question": "What is 'reverse swing' in fast bowling?",
+    "options": [
+      "Swing that only occurs with a brand new ball",
+      "Swing where the ball moves in the opposite direction to conventional swing, usually with an older ball",
+      "An off-spinner's variation",
+      "A ball that swings after pitching"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 55,
+    "question": "In T20 cricket strategy, what is the typical reason for using a 'death bowler' in the final overs?",
+    "options": [
+      "To bowl as fast as possible regardless of accuracy",
+      "To deliver yorkers, slower balls and variations to limit runs at the end of an innings",
+      "To increase wides",
+      "To take time penalties"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "question": "Which analytical concept measures how many runs above or below an average player a batsman or bowler contributes?",
+    "options": [
+      "Batting average",
+      "Economy rate",
+      "Value above replacement (or similar advanced metric)",
+      "Net run rate"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "question": "What is the main tactical purpose of a 'slip cordon' of multiple slip fielders?",
+    "options": [
+      "To stop singles",
+      "To catch edges from fast bowlers or seamers inducing outside nicks",
+      "To stop boundaries on the leg side",
+      "To save runs at midwicket"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "question": "Which type of delivery is bowled by a right-arm leg spinner that spins from leg to off for a right-handed batsman?",
+    "options": ["Off-break", "Leg-break", "Doosra", "Knuckle ball"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "question": "In match-ups analysis, why might a captain hold back a particular bowler for a specific batsman?",
+    "options": [
+      "Because the bowler is tired",
+      "Because the bowler is a friend of the batsman",
+      "Because statistics show that bowler troubles or dismisses that batsman more often",
+      "Because of field restrictions only"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "Which term is used in analytics for measuring the impact of dot balls, boundaries and wickets together in T20 bowling performance?",
+    "options": [
+      "Control rate",
+      "Boundary percentage",
+      "Dot-ball index",
+      "Bowling impact or efficiency index"
+    ],
+    "answerIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "Tactically, what is the advantage of a left–right batting pair at the crease?",
+    "options": [
+      "It reduces scoring options",
+      "It disrupts the bowlers’ lines and the fielding side’s rhythm by forcing frequent field changes",
+      "It always increases dot balls",
+      "It prevents spin bowling"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "question": "In multi-day cricket, what is 'declaring' an innings?",
+    "options": [
+      "When the innings ends only after all are out",
+      "When the captain voluntarily ends the innings before all ten wickets fall",
+      "When the umpire ends the innings for slow over rate",
+      "When rain stops play permanently"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "What is the main tactical reason for using a 'short leg' or 'silly point' close to the batsman?",
+    "options": [
+      "To save boundaries",
+      "To catch bat–pad chances off spinners or seamers",
+      "To prevent singles in the deep",
+      "To mark the popping crease"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "question": "Which fielding strategy focuses on cutting off easy singles by having fielders in the ring rather than on the boundary?",
+    "options": [
+      "In–out field",
+      "Ring field",
+      "Spread field",
+      "Defensive field"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "In advanced batting analysis, which metric might combine scoring rate, consistency and match situation to rate an innings?",
+    "options": [
+      "Simple strike rate only",
+      "Batting impact index or similar composite metric",
+      "Economy rate",
+      "Net run rate"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "What is the main tactical risk of using too many boundary riders (fielders on the rope) in limited-overs cricket?",
+    "options": [
+      "Conceding too many boundaries",
+      "Leaving too many gaps for easy singles and strike rotation",
+      "Violating field restrictions",
+      "Increasing no-balls"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "In a T20 chase, what does it usually mean when a team is said to be 'ahead of the rate'?",
+    "options": [
+      "They are scoring slower than required",
+      "They are scoring at the exact required run rate",
+      "They are scoring faster than the required run rate to reach the target",
+      "They have more wickets in hand"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "How can data on 'wagon wheels' for a batsman help set a field?",
+    "options": [
+      "Shows how fast the ball is",
+      "Shows the bowler's speed",
+      "Shows where a batsman most often scores their runs around the field",
+      "Shows only the bowler’s line and length"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "Which tactical ploy might a captain use to slow the scoring of a set batsman without necessarily going for wickets?",
+    "options": [
+      "Use all-out attacking fields",
+      "Bowl wide full tosses",
+      "Apply defensive fields with tight lines to cut singles and boundaries",
+      "Only bowl bouncers"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "What is the primary goal of a 'powerplay' in T20 batting?",
+    "options": [
+      "Defend and play out dot balls",
+      "Score quickly while only a few fielders are allowed outside the circle",
+      "Only rotate strike",
+      "Take no risks at all"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "question": "Which side of the ball is usually kept shiny to encourage conventional swing?",
+    "options": [
+      "Both sides equally",
+      "The side facing away from the batsman",
+      "One side, with the other allowed to roughen",
+      "Only the seam"
+    ],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "In analytics, why might a team examine 'phase-based' scoring (powerplay, middle overs, death overs)?",
+    "options": [
+      "To adjust pitch length",
+      "To assess strengths and weaknesses at different stages of an innings",
+      "To choose ball colour",
+      "To select umpiring panels"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "Tactically, what is a 'finisher' in limited-overs batting?",
+    "options": [
+      "A bowler who bowls the first over",
+      "A batsman who specialises in scoring quickly at the end of an innings",
+      "The first opener",
+      "A player who only fields"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "Which bowling change is often used to break a partnership when regular bowlers are not succeeding?",
+    "options": [
+      "Bringing on part-time or 'golden arm' bowlers",
+      "Bowling only wides",
+      "Using only bouncers",
+      "Stopping spin entirely"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "What is the main objective of rotating the strike regularly in limited-overs cricket?",
+    "options": [
+      "To tire out the umpire",
+      "To keep the scoreboard moving, avoid dot-ball pressure and disrupt the bowler’s plans",
+      "To reduce boundaries",
+      "To avoid using powerplays"
+    ],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  }
+]

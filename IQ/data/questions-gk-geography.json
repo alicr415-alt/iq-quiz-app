@@ -1,0 +1,544 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital city of France?",
+    "options": ["Paris", "Lyon", "Marseille", "Nice"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Which continent is Brazil located in?",
+    "options": ["Europe", "Asia", "South America", "Africa"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Which country is famous for the city of Cairo?",
+    "options": ["Morocco", "Egypt", "Turkey", "Saudi Arabia"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Mount Everest lies in which mountain range?",
+    "options": ["Andes", "Rockies", "Alps", "Himalayas"],
+    "answerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "Which ocean is on the west coast of the United States?",
+    "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "Which country has the city of Sydney?",
+    "options": ["New Zealand", "Canada", "Australia", "United States"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "Which river flows through London?",
+    "options": ["Thames", "Seine", "Danube", "Rhine"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "Which continent is the Sahara Desert on?",
+    "options": ["Asia", "Africa", "Australia", "Europe"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "What is the capital of Japan?",
+    "options": ["Osaka", "Tokyo", "Kyoto", "Nagoya"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "Which country shares a long land border with the United States to the north?",
+    "options": ["Mexico", "Canada", "Greenland", "Cuba"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "What is the largest country in the world by land area?",
+    "options": ["China", "United States", "Russia", "Canada"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "Which city is the capital of the United Kingdom?",
+    "options": ["Manchester", "Birmingham", "London", "Edinburgh"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "Which country is shaped like a boot on the map of Europe?",
+    "options": ["Greece", "Italy", "Spain", "Portugal"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "Which continent is India located in?",
+    "options": ["Africa", "Asia", "Europe", "South America"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "Which African country is famous for the cities of Nairobi and Mombasa?",
+    "options": ["Kenya", "Tanzania", "Uganda", "Ethiopia"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "Which country has the city of Rio de Janeiro?",
+    "options": ["Argentina", "Brazil", "Chile", "Peru"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "What is the capital of Germany?",
+    "options": ["Berlin", "Munich", "Hamburg", "Frankfurt"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "The Great Wall is located in which country?",
+    "options": ["Japan", "China", "India", "Mongolia"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "Which country is an island nation in the Indian Ocean, south of India?",
+    "options": ["Sri Lanka", "Thailand", "Malaysia", "Singapore"],
+    "answerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "Which sea lies between the United Kingdom and mainland Europe?",
+    "options": ["Mediterranean Sea", "North Sea", "Black Sea", "Red Sea"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "Which country has the city of Toronto?",
+    "options": ["United States", "Canada", "Australia", "Ireland"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "Which continent is the country of South Africa on?",
+    "options": ["Asia", "Africa", "Europe", "North America"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "What is the capital city of Spain?",
+    "options": ["Barcelona", "Madrid", "Seville", "Valencia"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "Which ocean is between Africa and Australia?",
+    "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+    "answerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "South Korea", "Vietnam"],
+    "answerIndex": 1,
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 26,
+    "question": "Which European river passes through Budapest, Vienna and Bratislava?",
+    "options": ["Rhine", "Danube", "Volga", "Loire"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "Which African lake is a major source of the White Nile?",
+    "options": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Turkana"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "What is the smallest independent country in the world by land area?",
+    "options": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "Which US state is known as the 'Sunshine State'?",
+    "options": ["California", "Texas", "Florida", "Arizona"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "The city of Istanbul lies on the border of which two continents?",
+    "options": [
+      "Europe and Asia",
+      "Asia and Africa",
+      "Europe and Africa",
+      "Europe and North America"
+    ],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "Which desert covers much of northern China and southern Mongolia?",
+    "options": ["Gobi Desert", "Kalahari Desert", "Arabian Desert", "Patagonian Desert"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "Which country is completely surrounded by South Africa?",
+    "options": ["Lesotho", "Eswatini", "Botswana", "Namibia"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "What is the capital city of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "Which country has the largest population in South America?",
+    "options": ["Argentina", "Colombia", "Chile", "Brazil"],
+    "answerIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "Which European capital stands on the River Seine?",
+    "options": ["Madrid", "Paris", "Berlin", "Rome"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "Which large desert covers much of northern Africa?",
+    "options": ["Sahara Desert", "Gobi Desert", "Great Victoria Desert", "Atacama Desert"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "Which country is the largest by land area in Africa?",
+    "options": ["Sudan", "Algeria", "Nigeria", "Democratic Republic of the Congo"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "question": "Which city is the capital of Brazil?",
+    "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "Which country is home to the famous landmark known as the Acropolis?",
+    "options": ["Italy", "Turkey", "Greece", "Cyprus"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "question": "Which island nation lies to the east of mainland Africa in the Indian Ocean?",
+    "options": ["Madagascar", "Iceland", "Cuba", "New Zealand"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "The Strait of Gibraltar connects the Atlantic Ocean with which sea?",
+    "options": ["Red Sea", "Mediterranean Sea", "Black Sea", "Caribbean Sea"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "Which country has New Delhi as its capital?",
+    "options": ["Pakistan", "Bangladesh", "India", "Sri Lanka"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "Which mountain is the highest in Africa?",
+    "options": ["Mount Kenya", "Mount Kilimanjaro", "Mount Stanley", "Mount Elgon"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "Which river is the longest in South America?",
+    "options": ["Amazon River", "Paraná River", "Orinoco River", "São Francisco River"],
+    "answerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "Which country is known for the city of Reykjavik?",
+    "options": ["Greenland", "Norway", "Finland", "Iceland"],
+    "answerIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "Which European country has its capital at Warsaw?",
+    "options": ["Czech Republic", "Poland", "Hungary", "Slovakia"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "Which sea is almost completely surrounded by land and bordered by Ukraine, Russia, and Turkey?",
+    "options": ["Baltic Sea", "Black Sea", "Caspian Sea", "Adriatic Sea"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "Which city is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Perth", "Canberra"],
+    "answerIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "Which country shares land borders with both France and Spain?",
+    "options": ["Portugal", "Andorra", "Monaco", "Belgium"],
+    "answerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "Which river flows through the city of Cairo?",
+    "options": ["Tigris", "Euphrates", "Nile", "Jordan"],
+    "answerIndex": 2,
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 51,
+    "question": "Which mountain is the highest active volcano in the world?",
+    "options": ["Mauna Loa", "Ojos del Salado", "Etna", "Kilimanjaro"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "question": "The Strait of Hormuz connects the Persian Gulf with which body of water?",
+    "options": ["Arabian Sea", "Red Sea", "Gulf of Oman", "Mediterranean Sea"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "question": "Which Asian country was formerly known as Ceylon?",
+    "options": ["Myanmar", "Sri Lanka", "Laos", "Bangladesh"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "question": "Which city is one of the official capitals of South Africa?",
+    "options": ["Pretoria", "Harare", "Lusaka", "Gaborone"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 55,
+    "question": "Which city is the highest capital in the world by elevation?",
+    "options": ["Quito", "La Paz", "Thimphu", "Kathmandu"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "question": "Which river forms a large part of the border between Mexico and the United States?",
+    "options": ["Colorado River", "Rio Grande", "Mississippi River", "Columbia River"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "question": "Which sea separates Europe from Africa between Spain and Morocco?",
+    "options": ["Red Sea", "Black Sea", "Tyrrhenian Sea", "Alboran Sea"],
+    "answerIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "question": "In which country would you find the ancient city of Timbuktu?",
+    "options": ["Niger", "Mali", "Burkina Faso", "Algeria"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "question": "Which European country has its capital at Vilnius?",
+    "options": ["Latvia", "Estonia", "Lithuania", "Belarus"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "The Great Barrier Reef lies off the coast of which Australian state?",
+    "options": ["New South Wales", "Victoria", "Queensland", "Western Australia"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "Which is the longest river in Europe?",
+    "options": ["Danube", "Volga", "Dnieper", "Rhine"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "question": "Which desert is considered the driest non-polar desert in the world?",
+    "options": ["Atacama Desert", "Sahara Desert", "Kalahari Desert", "Gobi Desert"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "Which country has a unique flag that is not quadrilateral in shape?",
+    "options": ["Nepal", "Bhutan", "Switzerland", "Japan"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "question": "Lake Baikal, the world's deepest freshwater lake, is located in which country?",
+    "options": ["Canada", "Russia", "China", "United States"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "Which large plateau covers much of central and western Mexico?",
+    "options": [
+      "Altiplano",
+      "Deccan Plateau",
+      "Tibetan Plateau",
+      "Mexican Plateau"
+    ],
+    "answerIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "Which African country is completely landlocked and surrounded by only two countries, South Africa and Mozambique?",
+    "options": ["Lesotho", "Eswatini", "Botswana", "Zimbabwe"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "The city of Vladivostok lies on which body of water?",
+    "options": [
+      "Sea of Japan",
+      "Yellow Sea",
+      "East China Sea",
+      "Sea of Okhotsk"
+    ],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "Which is the largest island in the Mediterranean Sea by area?",
+    "options": ["Sardinia", "Sicily", "Cyprus", "Crete"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "Which river flows through both Sudan and Egypt before reaching the Mediterranean Sea?",
+    "options": ["Congo", "Niger", "Nile", "Zambezi"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "Which country is home to the city of Ushuaia, often called the 'southernmost city in the world'?",
+    "options": ["Chile", "New Zealand", "Argentina", "South Africa"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "question": "Which Asian country is landlocked and bordered by China, India, Bangladesh and Myanmar?",
+    "options": ["Bhutan", "Nepal", "Laos", "Afghanistan"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "Which Scandinavian country shares a long land border with Russia and also has a coastline on the Arctic Ocean?",
+    "options": ["Denmark", "Norway", "Sweden", "Finland"],
+    "answerIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "Which city is the capital of Kazakhstan?",
+    "options": ["Almaty", "Astana (Nur-Sultan)", "Tashkent", "Bishkek"],
+    "answerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "Which island nation in the Pacific is made up of two main islands called the North Island and South Island?",
+    "options": ["Fiji", "New Caledonia", "New Zealand", "Samoa"],
+    "answerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "Which landlocked European country shares borders with Germany, Czech Republic, Slovakia and Switzerland?",
+    "options": ["Austria", "Poland", "Hungary", "Slovenia"],
+    "answerIndex": 0,
+    "difficulty": "hard"
+  }
+]
