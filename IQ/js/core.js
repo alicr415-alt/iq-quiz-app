@@ -1,3 +1,11 @@
+// js/core.js
+// Core state + helpers for the IQ app
+
+// ✅ IMPORTANT: Use SAME ORIGIN on live hosting (Render), so API calls work everywhere.
+// Local example:  http://127.0.0.1:5000  -> API = http://127.0.0.1:5000/api
+// Live example:   https://yourapp.onrender.com -> API = https://yourapp.onrender.com/api
+window.API_BASE_URL = window.location.origin + "/api";
+
 console.log("IQ app initialising...");
 
   // ---------- State ----------
@@ -193,3 +201,4 @@ console.log("IQ app initialising...");
       resultsReadyBanner.classList.remove("visible");
     }
   }
+

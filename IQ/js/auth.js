@@ -2,7 +2,10 @@
 // Handles login, register, logout and token storage for the IQ app.
 
 (function () {
-  const API_BASE_URL = "http://127.0.0.1:5000/api";
+  // ✅ FIX: Use the API base defined in core.js (same-origin on Render)
+  // Fallback keeps local dev working if core.js wasn’t loaded for any reason.
+  const API_BASE_URL =
+    window.API_BASE_URL || "http://127.0.0.1:5000/api";
 
   const TOKEN_KEY = "iq_token";
   const USER_KEY = "iq_user";
@@ -162,7 +165,6 @@
       authLoggedInEl.classList.remove("hidden");
 
       if (authUserLabelEl) {
-        // e.g. "Good morning, Ali"
         authUserLabelEl.textContent = `${greeting}, ${user.username}`;
       }
 
@@ -242,7 +244,6 @@
   }
 
   async function refreshUserFromTokenIfNeeded() {
-    // On page load: if we have a token but no user info, try /me.
     if (!getToken()) return;
     if (getUser()) return;
 
@@ -296,7 +297,6 @@
       });
     }
 
-    // Try to load user from token on first load
     refreshUserFromTokenIfNeeded().finally(() => {
       updateAuthUI();
     });
@@ -306,6 +306,7 @@
   // Expose helpers to other scripts
   // -------------------------------
 
+  // Keep API_BASE_URL global (some other files might rely on it)
   window.API_BASE_URL = API_BASE_URL;
 
   window.authService = {
