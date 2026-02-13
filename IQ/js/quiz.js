@@ -201,12 +201,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // ✅ NEW: Read mode directly from the radio buttons (fixes VS mode not applying)
+  function readModeFromRadiosDirect() {
+    const checked = document.querySelector('input[name="mode"]:checked');
+    const value = checked ? checked.value : "solo"; // "solo" or "vs"
+    mode = value;
+    window.mode = value; // optional consistency for other modules
+  }
+
   // ---------- Quiz setup ----------
 
   async function startQuiz() {
     console.log("Starting quiz…");
 
-    refreshModeFromRadiosSafe();
+    // ✅ FIX: use direct radio read (instead of relying on home.js globals)
+    readModeFromRadiosDirect();
 
     quizLength = parseInt(settingLength.value, 10) || 10;
     quizDifficulty = settingDifficulty.value || "mixed";
